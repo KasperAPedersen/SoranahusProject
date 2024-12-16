@@ -36,6 +36,22 @@
     --aboutSectionTextH3Size: 2rem;
     --aboutSectionTextH3MarginBottom: 50px;
     --aboutSectionTextParagraphSize: 1.2rem;
+
+    --workSectionCardMinWidth: 300px;
+    --workSectionCardMargin: 10px;
+    --workSectionCardTextPadding: 30px;
+    --workSectionCardH3Size: 2rem;
+    --workSectionCardParagraphSize: 1rem;
+    --workSectionCardH3PaddingHeight: 30px;
+    --workSectionTitle: var(--primaryColor);
+    --workSectionTitleSize: 2rem;
+    --workSectionTitlePaddingHeight: 50px;
+    --workSectionTitlePaddingWidth: 0px;
+
+    --reviewsSectionTitle: var(--secondiaryColor);
+    --reviewsSectionTitleSize: 2rem;
+    --reviewsSectionTitlePaddingHeight: 50px;
+    --reviewsSectionTitlePaddingWidth: 0px;
 }
 
 * {

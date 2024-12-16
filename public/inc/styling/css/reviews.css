@@ -1,0 +1,31 @@
+#reviews {
+    width: 100%;
+    background-image: url("../../images/udtalelser_bg.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#reviews > h2 {
+    text-align: center;
+    width: 100%;
+    padding: var(--reviewsSectionTitlePaddingHeight) var(--reviewsSectionTitlePaddingWidth) var(--reviewsSectionTitlePaddingHeight) var(--reviewsSectionTitlePaddingWidth);
+    font-size: var(--reviewsSectionTitleSize);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--reviewsSectionTitle);
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#reviews section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#reviews section .review {
+    border: 1px solid red;
+
+}

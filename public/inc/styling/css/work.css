@@ -1,3 +1,46 @@
 #work {
-    height: 2000px;
+    width: 100%;
+    background-color: var(--secondiaryColor);
+}
+
+#work > h2 {
+    text-align: center;
+    width: 100%;
+    padding: var(--workSectionTitlePaddingHeight) var(--workSectionTitlePaddingWidth) var(--workSectionTitlePaddingHeight) var(--workSectionTitlePaddingWidth);
+    font-size: var(--workSectionTitleSize);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--workSectionTitle);
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#work > section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(var(--workSectionCardMinWidth), 1fr));
+    padding-bottom: 50px;
+}
+
+#work .card {
+    margin: var(--workSectionCardMargin);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#work .card .image img {
+    width: 100%;
+}
+
+#work .card .text {
+    padding: var(--workSectionCardTextPadding);
+    text-align: center;
+}
+
+#work .card .text h3 {
+    font-size: var(--workSectionCardH3Size);
+    padding: 0 0 var(--workSectionCardH3PaddingHeight) 0;
+}
+
+#work .card .text p {
+    font-size: var(--workSectionCardParagraphSize);
 }
