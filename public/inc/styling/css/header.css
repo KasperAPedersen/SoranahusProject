@@ -17,8 +17,9 @@ header * {
 
 header .logo {
     width: 20%;
-    background-image: url("../../images/logo.svg");
+    background-image: url("../../images/logo.png");
     background-repeat: no-repeat;
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
