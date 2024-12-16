@@ -27,26 +27,26 @@
     width: 40vw;
 }
 
-#hero h1,
-#hero h2 {
+#hero h2,
+#hero h3 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add drop shadow */
     font-weight: normal;
 }
 
-#hero h1 {
+#hero h2 {
     font-size: var(--heroTitleSize);
     font-weight: bold;
 }
 
-#hero h2 {
+#hero h3 {
     font-size: var(--heroParagraphSize);
 }
 
-#hero h2 {
+#hero h3 {
     visibility: hidden;
 }
 
-#hero h2 span {
+#hero h3 span {
     visibility: initial;
     padding-right: 5px;
 }

@@ -42,7 +42,7 @@
     width: var(--aboutSectionTextWidth);
 }
 
-#about h3 {
+#about .text h1 {
     font-size: var(--aboutSectionTextH3Size);
     margin-bottom: var(--aboutSectionTextH3MarginBottom);
     font-family: "Inter", sans-serif;
