@@ -6,13 +6,13 @@ header {
     top: 0;
     left: 0;
 
-    transition: 1s;
+    transition: var(--headerTransition);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0);
     z-index: 20;
 }
 
 header * {
-    transition: 1s;
+    transition: var(--headerTransition);
 }
 
 header .logo {
@@ -43,7 +43,7 @@ header nav a {
     margin-right: 15px;
     text-decoration: none;
     color: var(--headerNavColor);
-    transition: 0s;
+    transition: var(--headerSocialsHoverOpacity);
 }
 
 header nav .active {
@@ -72,6 +72,13 @@ header .socials div {
     font-size: var(--headerSocialsFontSize);
     background-color: var(--headerSocialsBgColor);
     color: var(--headerSocialsColor);
+    cursor: pointer;
+}
+
+header .socials div:hover {
+    background-color: var(--headerSocialsHoverBgColor);
+    color: var(--headerSocialsHoverColor);
+    transition: 0.2s;
 }
 
 
@@ -80,15 +87,24 @@ header .socials div {
     --headerNavColor: var(--primaryColor);
 
 
-    transition: 1s;
+    transition: var(--headerTransition);
     background-color: var(--headerBgColor) !important;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .headerOnScroll * {
-    transition: 1s;
+    transition: var(--headerTransition);
 }
 
 .headerOnScroll nav .inactive {
     opacity: var(--headerNavOpacityColorInactive);
+}
+
+.headerOnScroll nav a {
+    transition: var(--headerSocialsHoverOpacity);
+}
+
+.headerOnScroll nav a:hover {
+    color: var(--headerNavColorActive);
+    opacity: 1;
 }

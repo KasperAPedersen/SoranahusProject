@@ -4,6 +4,8 @@
     --tertiaryCcolor: #F1EFEB;
 
     --headerHeight: 150px;
+    --headerTransition: 1s;
+
     --headerNavColor: var(--secondiaryColor);
     --headerNavColorHover: var(--primaryColor);
     --headerNavColorActive: var(--primaryColor);
@@ -14,6 +16,9 @@
     --headerSocialsFontSize: 1.1rem;
     --headerSocialsBgColor: var(--secondiaryColor);
     --headerSocialsColor: var(--primaryColor);
+    --headerSocialsHoverColor: var(--secondiaryColor);
+    --headerSocialsHoverBgColor: var(--primaryColor);
+    --headerSocialsHoverOpacity: 0.5s;
 
     --heroTextColor: var(--secondiaryColor);
     --heroTitleSize: 6rem;
@@ -27,4 +32,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+}
+
+*::selection {
+    color: var(--primaryColor);
+}
+
+.visuallyHidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
