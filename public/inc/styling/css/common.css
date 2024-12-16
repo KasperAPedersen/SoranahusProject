@@ -9,14 +9,22 @@
     --headerNavColorActive: var(--primaryColor);
     --headerNavOpacityColorInactive: 0.6;
     --headerBgColor: var(--secondiaryColor);
-    --headerSocialsWidth: 40px;
-    --headerSocialsHeight: 40px;
+    --headerSocialsWidth: 30px;
+    --headerSocialsHeight: 30px;
+    --headerSocialsFontSize: 1.1rem;
     --headerSocialsBgColor: var(--secondiaryColor);
     --headerSocialsColor: var(--primaryColor);
+
+    --heroTextColor: var(--secondiaryColor);
+    --heroTitleSize: 6rem;
+    --heroParagraphSize: 2.75rem;
+    --heroLineHeight: 3.5rem;
+    --heroBgOpacity: 0.2;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
