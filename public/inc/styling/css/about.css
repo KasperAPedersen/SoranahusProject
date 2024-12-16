@@ -1,3 +1,54 @@
 #about {
-    height: 2000px;
+    width: 100vw;
+    background-color: var(--aboutBgColor);
+}
+
+#about section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 50px;
+}
+
+#about > h2 {
+    text-align: center;
+    width: 100%;
+    padding: var(--aboutSectionTitlePaddingHeight) var(--aboutSectionTitlePaddingWidth) 0 var(--aboutSectionTitlePaddingWidth);
+    font-size: var(--aboutSectionTitleSize);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--aboutSectionTitle);
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#about .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .video video{
+    width: var(--aboutSectionVideoWidth);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#about .text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#about .text article {
+    width: var(--aboutSectionTextWidth);
+}
+
+#about h3 {
+    font-size: var(--aboutSectionTextH3Size);
+    margin-bottom: var(--aboutSectionTextH3MarginBottom);
+    font-family: "Inter", sans-serif;
+}
+
+#about p {
+    font-size: var(--aboutSectionTextParagraphSize);
+    font-family: "Inter", sans-serif;
 }

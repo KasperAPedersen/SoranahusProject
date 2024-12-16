@@ -1,7 +1,7 @@
 :root {
     --primaryColor: #046474;
     --secondiaryColor: #F9F9F8;
-    --tertiaryCcolor: #F1EFEB;
+    --tertiaryColor: #F1EFEB;
 
     --headerHeight: 150px;
     --headerTransition: 1s;
@@ -25,6 +25,17 @@
     --heroParagraphSize: 2.75rem;
     --heroLineHeight: 3.5rem;
     --heroBgOpacity: 0.2;
+
+    --aboutBgColor: var(--tertiaryColor);
+    --aboutSectionTitle: var(--primaryColor);
+    --aboutSectionTitleSize: 2rem;
+    --aboutSectionTitlePaddingHeight: 50px;
+    --aboutSectionTitlePaddingWidth: 0px;
+    --aboutSectionVideoWidth: 90%;
+    --aboutSectionTextWidth: 90%;
+    --aboutSectionTextH3Size: 2rem;
+    --aboutSectionTextH3MarginBottom: 50px;
+    --aboutSectionTextParagraphSize: 1.2rem;
 }
 
 * {
