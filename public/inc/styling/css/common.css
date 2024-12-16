@@ -1,0 +1,22 @@
+:root {
+    --primaryColor: #046474;
+    --secondiaryColor: #F9F9F8;
+    --tertiaryCcolor: #F1EFEB;
+
+    --headerHeight: 150px;
+    --headerNavColor: var(--secondiaryColor);
+    --headerNavColorHover: var(--primaryColor);
+    --headerNavColorActive: var(--primaryColor);
+    --headerNavOpacityColorInactive: 0.6;
+    --headerBgColor: var(--secondiaryColor);
+    --headerSocialsWidth: 40px;
+    --headerSocialsHeight: 40px;
+    --headerSocialsBgColor: var(--secondiaryColor);
+    --headerSocialsColor: var(--primaryColor);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
