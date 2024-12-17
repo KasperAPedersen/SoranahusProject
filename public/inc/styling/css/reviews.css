@@ -56,5 +56,10 @@
 @media only screen and (max-width: 500px) {
     #reviews section {
         display: block;
+
+    }
+
+    #reviews .review {
+        margin: 0 calc((100% - var(--reviewSectionTextWidth)) / 2);
     }
 }

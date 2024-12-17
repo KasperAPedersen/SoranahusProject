@@ -137,6 +137,14 @@
     #contact .card {
         display: block;
     }
+
+    #contact .form {
+        margin: var(--contactSectionFormMarginHeight) calc((100% - var(--contactSectionFormWidth)) / 2);
+    }
+
+    #contact .info {
+        margin: 0 calc((100% - var(--contactSectionFormWidth)) / 2);
+    }
 }
 
 @media only screen and (max-width: 600px) {
