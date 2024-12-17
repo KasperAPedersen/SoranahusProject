@@ -20,6 +20,7 @@ header .logo {
     background-image: url("../../images/logo.png");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: left;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,4 +108,69 @@ header .socials div:hover {
 .headerOnScroll nav a:hover {
     color: var(--headerNavColorActive);
     opacity: 1;
+}
+
+#mobileIcon {
+    display: none;
+}
+
+/* res */
+@media only screen and (max-width: 1314px) {
+    header nav a {
+        font-size: 1rem;
+    }
+
+    header .socials div {
+        --headerSocialsWidth: 22.5px;
+        --headerSocialsHeight: 22.5px;
+        --headerSocialsFontSize: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 1314px) {
+    header .logo {
+        width: 15%;
+    }
+
+    header nav {
+        width: 75%;
+    }
+
+    header .socials {
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    header .socials,
+    header nav {
+        display: none;
+    }
+
+    header #mobileIcon {
+        display: flex;
+        width: 70%;
+        justify-content: right;
+        padding: 0 15px
+    }
+
+    header .logo {
+        width: 30%;
+    }
+
+    header .socials div {
+        --headerSocialsWidth: 30px;
+        --headerSocialsHeight: 30px;
+        --headerSocialsFontSize: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    header .logo {
+        width: 50%;
+    }
+
+    header #mobileIcon {
+        width: 50%;
+    }
 }

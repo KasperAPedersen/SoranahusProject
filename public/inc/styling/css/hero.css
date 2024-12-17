@@ -4,6 +4,7 @@
     background-image: url("../../images/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -51,4 +52,64 @@
 #hero h3 span {
     visibility: initial;
     padding-right: 5px;
+}
+
+@media screen and (max-width: 1440px) {
+    #hero article {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #hero article {
+        width: 60vw;
+    }
+
+    #hero h2 {
+        --heroTitleSize: 4rem;
+    }
+
+    #hero h3 {
+        --heroParagraphSize: 1.8rem;
+    }
+
+    #hero article {
+        --heroLineHeight: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #hero article {
+        width: 60vw;
+    }
+
+    #hero h2 {
+        --heroTitleSize: 3rem;
+    }
+
+    #hero h3 {
+        --heroParagraphSize: 1.4rem;
+    }
+
+    #hero article {
+        --heroLineHeight: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #hero article {
+        width: 80vw;
+    }
+
+    #hero h2 {
+        --heroTitleSize: 2.5rem;
+    }
+
+    #hero h3 {
+        --heroParagraphSize: 0.9rem;
+    }
+
+    #hero article {
+        --heroLineHeight: 1.5rem;
+    }
 }

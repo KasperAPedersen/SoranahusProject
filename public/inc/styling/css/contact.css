@@ -56,7 +56,7 @@
 
 /* -- */
 #contact .info {
-    width: 80%;
+    width: 100%;
     text-align: center;
     color: var(--contactSectionInfoTextColor);
 
@@ -90,6 +90,7 @@
 }
 
 #contact .card .image {
+    width: 100%;
     height: var(--contactSectionCardImageHeight);
 }
 
@@ -104,4 +105,37 @@
     padding: var(--contactSectionCardTextPadding);
     background-color: var(--contactSectionCardBgcolor);
     color: var(--contactSectionCardColor);
+}
+
+@media only screen and (max-width: 1200px) {
+    #contact .form button {
+        position: relative;
+        top: 0;
+        left: 0;
+        float: right;
+    }
+
+    #contact .info {
+        width: 80%;
+    }
+
+    #contact {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #contact .info > section {
+        display: block;
+    }
+
+    #contact .card {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #contact .form button {
+        --contactSectionFormButtonWidth: 100%;
+    }
 }

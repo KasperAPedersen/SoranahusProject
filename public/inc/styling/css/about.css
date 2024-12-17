@@ -5,7 +5,7 @@
 
 #about section {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     padding: 50px;
 }
 
@@ -51,4 +51,40 @@
 #about p {
     font-size: var(--aboutSectionTextParagraphSize);
     font-family: "Inter", sans-serif;
+}
+
+@media screen and (max-width: 1458px) {
+    #about .text h1 {
+        --aboutSectionTextH3Size: 1.5rem;
+        --aboutSectionTextH3MarginBottom: 50px;
+    }
+
+    #about p {
+        --aboutSectionTextParagraphSize: 1rem;
+    }
+}
+
+@media screen and (max-width: 1458px) {
+    #about .text {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #about section {
+        display: block;
+    }
+
+    #about > section {
+        padding: 0;
+    }
+
+    #about > h2 {
+        padding: var(--aboutSectionTitlePaddingHeight) var(--aboutSectionTitlePaddingWidth) var(--aboutSectionTitlePaddingHeight) var(--aboutSectionTitlePaddingWidth);
+
+    }
+
+    #about .video {
+        padding-bottom: 50px;
+    }
 }
