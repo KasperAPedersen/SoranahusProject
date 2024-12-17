@@ -1,7 +1,7 @@
 #reviews {
     width: 100%;
     background-image: url("../../images/udtalelser_bg.jpg");
-    min-height: 500px;
+    min-height: var(--reviewsSectionMinHeight);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,4 +23,21 @@
 #reviews section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+#reviews .review {
+    width: var(--reviewSectionTextWidth);
+    justify-self: center;
+    color: var(--reviewSectionTextColor);
+    text-align: center;
+}
+
+#reviews .review h3 {
+    font-size: var(--reviewSectionTextH3Size);
+    margin: 0 0 50px 0;
+}
+
+#reviews .review p {
+    font-size: var(--reviewSectionTextParagraphSize);
 }

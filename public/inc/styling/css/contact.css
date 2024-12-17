@@ -1,0 +1,107 @@
+#contact {
+    width: 100%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+}
+
+#contact .form {
+    width: var(--contactSectionFormWidth);
+    margin: var(--contactSectionFormMarginHeight) 0;
+    padding: var(--contactSectionFormPadding);
+    border-radius: var(--contactSectionFormBorderRadius);
+    background-color: var(--contactSectionFormBgColor);
+    color: var(--contactSectionFormTextColor);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: relative;
+}
+
+#contact .form input {
+    width: 100%;
+    margin: var(--contactSectionFormInputMarginHeight) 0;
+    padding: var(--contactSectionFormInputPaddingHeight) var(--contactSectionFormInputPaddingWidth);
+    border-radius: 2px;
+    border: none;
+}
+
+#contact .form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: var(--contactSectionFormInputPaddingHeight) var(--contactSectionFormInputPaddingWidth);
+    height: var(--contactSectionFormTextAreaHeight);
+}
+
+#contact .form button {
+    text-transform: uppercase;
+    padding: var(--contactSectionFormButtonPaddingHeight) var(--contactSectionFormButtonPaddingWidth);
+    width: var(--contactSectionFormButtonWidth);
+    border-radius: 2px;
+    background-color: var(--contactSectionFormButtonBgColor);
+    color: var(--contactSectionFormButtonTextColor);
+    position: absolute;
+    bottom: var(--contactSectionFormPadding);
+    right: var(--contactSectionFormPadding);
+    cursor: pointer;
+    border: var(--contactSectionFormButtonBorderThickness) solid transparent;
+    transition: var(--contactSectionFormButtonTransition);
+    font-size: var(--contactSectionFormButtonTextSize);
+}
+
+#contact .form button:hover {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+    border: var(--contactSectionFormButtonBorderThickness) solid var(--secondaryColor);
+}
+
+/* -- */
+#contact .info {
+    width: 80%;
+    text-align: center;
+    color: var(--contactSectionInfoTextColor);
+
+    align-self: center;
+}
+#contact .info > h3 {
+    padding: var(--contactSectionInfoPaddingHeight) 0;
+    font-size: var(--contactSectionInfoH3TextSize);
+    justify-items: center;
+}
+
+#contact .info > p {
+    font-size: var(--contactSectionInfoParagraphSize);
+    justify-items: center;
+}
+
+#contact .info > section {
+    margin: var(--contactSectionInfoPaddingHeight) 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#contact .card {
+    margin: var(--contactSectionCardMargin);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#contact .card a {
+    text-decoration: none;
+    color: var(--contactSectionCardColor);
+}
+
+#contact .card .image {
+    height: var(--contactSectionCardImageHeight);
+}
+
+#contact .card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#contact .info .card .text {
+    text-align: left;
+    padding: var(--contactSectionCardTextPadding);
+    background-color: var(--contactSectionCardBgcolor);
+    color: var(--contactSectionCardColor);
+}

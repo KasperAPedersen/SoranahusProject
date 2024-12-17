@@ -1,0 +1,34 @@
+footer {
+    width: 100%;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0);
+    background-color: var(--footerBgColor);
+
+}
+
+footer > * {
+    width: 25%;
+    text-align: center;
+    color: var(--footerTextColor);
+    padding: var(--footerPaddingHeight) var(--footerPaddingWidth);
+}
+
+footer .logo {
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+
+footer .logo img {
+    width: 100%;
+}
+
+footer article a {
+    color: var(--footerTextColor);
+    text-decoration: none;
+}
