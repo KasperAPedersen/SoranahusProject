@@ -103,6 +103,9 @@
 
 #view .videos video {
     width: 100%;
+    height: 450px;
+    object-fit: contain;
+    background-color: #000;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
@@ -150,7 +153,3 @@
         font-size: 1.2rem;
     }
 }
-/*
-
-
- */
