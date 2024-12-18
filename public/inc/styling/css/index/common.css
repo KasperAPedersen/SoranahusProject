@@ -1,0 +1,62 @@
+:root {
+    --heroTextColor: var(--secondaryColor);
+    --heroTitleSize: 6rem;
+    --heroParagraphSize: 2.75rem;
+    --heroLineHeight: 3.5rem;
+    --heroBgOpacity: 0.2;
+
+    --aboutBgColor: var(--tertiaryColor);
+    --aboutSectionTitle: var(--primaryColor);
+    --aboutSectionTitleSize: 2rem;
+    --aboutSectionTitlePaddingHeight: 50px;
+    --aboutSectionTitlePaddingWidth: 0px;
+    --aboutSectionVideoWidth: 90%;
+    --aboutSectionTextWidth: 90%;
+    --aboutSectionTextH3Size: 2rem;
+    --aboutSectionTextH3MarginBottom: 50px;
+    --aboutSectionTextParagraphSize: 1.2rem;
+
+    --workSectionCardMinWidth: 300px;
+    --workSectionCardMargin: 10px;
+    --workSectionCardTextPadding: 30px;
+    --workSectionCardH3Size: 2rem;
+    --workSectionCardParagraphSize: 1rem;
+    --workSectionCardH3PaddingHeight: 30px;
+    --workSectionTitle: var(--primaryColor);
+    --workSectionTitleSize: 2rem;
+    --workSectionTitlePaddingHeight: 50px;
+    --workSectionTitlePaddingWidth: 0px;
+
+    /* -- */
+    --reviewsSectionTitle: var(--secondaryColor);
+    --reviewsSectionTitleSize: 2rem;
+    --reviewsSectionTitlePaddingHeight: 50px;
+    --reviewsSectionTitlePaddingWidth: 0px;
+    --reviewsSectionMinHeight: 500px;
+    --reviewSectionTextWidth: 60%;
+    --reviewSectionTextColor: var(--secondaryColor);
+    --reviewSectionTextParagraphSize: 1.1rem;
+    --reviewSectionTextH3Size: 2rem;
+}
+
+#contact .form *::selection,
+#contact .info .card *::selection,
+footer *::selection {
+    color: var(--primaryColor);
+    background-color: var(--secondaryColor);
+}
+
+.visuallyHidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.clear-fix {
+    clear: both;
+}

@@ -1,6 +1,6 @@
 #reviews {
     width: 100%;
-    background-image: url("../../images/udtalelser_bg.jpg");
+    background-image: url("../../../images/udtalelser_bg.jpg");
     min-height: var(--reviewsSectionMinHeight);
     background-attachment: fixed;
     background-position: center;

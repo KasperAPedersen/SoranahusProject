@@ -21,11 +21,7 @@
         <link rel="stylesheet" href="inc/styling/css/common/contact.css">
         <link rel="stylesheet" href="inc/styling/css/common/footer.css">
 
-        <link rel="stylesheet" href="inc/styling/css/index/common.css">
-        <link rel="stylesheet" href="inc/styling/css/index/hero.css">
-        <link rel="stylesheet" href="inc/styling/css/index/about.css">
-        <link rel="stylesheet" href="inc/styling/css/index/work.css">
-        <link rel="stylesheet" href="inc/styling/css/index/reviews.css">
+        <link rel="stylesheet" href="inc/styling/css/gallery/gallery.css">
     </head>
     <body>
         <dialog id="mobileModal">
@@ -35,7 +31,7 @@
                 <a href="" class="inactive">Om Soranahus</a>
                 <a href="" class="inactive">For sagsbehandlere</a>
                 <a href="" class="inactive">For den unge</a>
-                <a href="/gallery" class="inactive">Galleri</a>
+                <a href="" class="inactive">Galleri</a>
                 <a href="" class="inactive">Kontakt</a>
             </nav>
             <section class="socials">
@@ -53,7 +49,7 @@
                 <a href="" class="inactive">Om Soranahus</a>
                 <a href="" class="inactive">For sagsbehandlere</a>
                 <a href="" class="inactive">For den unge</a>
-                <a href="/gallery" class="inactive">Galleri</a>
+                <a href="" class="inactive">Galleri</a>
                 <a href="" class="inactive">Kontakt</a>
             </nav>
             <section class="socials">
@@ -66,98 +62,84 @@
             </section>
         </header>
 
-        <section id="hero">
-            <span class="visuallyHidden">Hero alt</span>
-            <article>
-                <h2>Soranahus</h2>
-                <h3><span class="paragraph"></span>.</h3>
+        <section id="gallery">
+            <h1>Vores galleri</h1>
+        </section>
+
+        <section id="view">
+            <article class="category">
+                <p class="active" onclick="toggleGalleryCategory(this, 1)">Billeder</p>
+                <p onclick="toggleGalleryCategory(this, 2)">Videoer</p>
             </article>
-        </section>
+            <article class="images">
+                <div class="row">
+                    <div class="column">
+                        <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/falls2.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/paris.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/nature.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/mist.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/paris.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="https://www.w3schools.com/w3images/underwater.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/ocean.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/mountainskies.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/underwater.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/falls2.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/paris.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/nature.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/mist.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/paris.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="https://www.w3schools.com/w3images/underwater.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/ocean.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/wedding.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/mountainskies.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/rocks.jpg" style="width:100%">
+                        <img src="https://www.w3schools.com/w3images/underwater.jpg" style="width:100%">
+                    </div>
+                </div>
+            </article>
 
-        <section id="about">
-            <h2>Om Soranahus</h2>
-            <section>
-                <article class="text">
-                    <article>
-                        <h1>Soranahus: Børne- og ungehjem, der baner vejen
-                            til et godt liv!</h1>
-                        <p>Soranahus er et børne- & ungehjem (før kaldet opholdssted), som hjælper unge med
-                            psykiske og sociale vanskeligheder gennem de svære teenageår og forbereder dem på
-                            en selvstændig voksentilværelse. Vi tilbyder døgnbehandling, aflastning, midlertidigt
-                            botilbud og ungestøtte i et højt fagligt miljø. Desuden tilbyder vi familiesupervision, som
-                            indgår uden merpris ved døgnanbringelse.<br><br>
-
-
-                            Soranahus er et familiært børne- og ungehjem med 11 pladser for unge mellem 12 og 18
-                            år (mulighed for op til 25 år) som ligger i Undløse by, der ligger lidt syd for Holbæk, på
-                            Sjælland.</p>
-                    </article>
-                </article>
-                <article class="video">
-                    <video controls>
-                        <source src="inc/videos/about.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </article>
-            </section>
-        </section>
-
-        <section id="work">
-            <h2>Hvad vi laver</h2>
-            <section>
-
-                <article class="card">
-                    <section class="image">
-                        <img src="inc/images/card.jpg" alt="card image" />
-                    </section>
-                    <section class="text">
-                        <h3>Målgruppe</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis error modi possimus quisquam repellendus sunt ut! Assumenda consectetur corporis cumque deserunt dolores harum iure maiores, molestias natus, odio quaerat rem.</p>
-                    </section>
-                </article>
-                <article class="card">
-                    <section class="image">
-                        <img src="inc/images/card.jpg" alt="card image"  />
-                    </section>
-                    <section class="text">
-                        <h3>Målgruppe</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis error modi possimus quisquam repellendus sunt ut! Assumenda consectetur corporis cumque deserunt dolores harum iure maiores, molestias natus, odio quaerat rem.</p>
-                    </section>
-                </article>
-                <article class="card">
-                    <section class="image">
-                        <img src="inc/images/card.jpg" alt="card image"  />
-                    </section>
-                    <section class="text">
-                        <h3>Målgruppe</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis error modi possimus quisquam repellendus sunt ut! Assumenda consectetur corporis cumque deserunt dolores harum iure maiores, molestias natus, odio quaerat rem.</p>
-                    </section>
-                </article>
-                <article class="card">
-                    <section class="image">
-                        <img src="inc/images/card.jpg" alt="card image"  />
-                    </section>
-                    <section class="text">
-                        <h3>Målgruppe</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis error modi possimus quisquam repellendus sunt ut! Assumenda consectetur corporis cumque deserunt dolores harum iure maiores, molestias natus, odio quaerat rem.</p>
-                    </section>
-                </article>
-
-            </section>
-        </section>
-
-        <section id="reviews">
-            <h2>Udtalelser</h2>
-            <section>
-                <article class="review">
-                    <h3>Meget Kompetente</h3>
-                    <p>"Personalet formår at give de unge mennesker en tryg hverdag  i faste rammer. De har de unges respekt og gennem deres  faglighed når de ind til de unge. Vi har været meget tilfredse."   <br><br>- Karina Elvison Bjørn</p>
-                </article>
-                <article class="review">
-                    <h3>Familieterapien på soranahus</h3>
-                    <p>"Familieterapien på Soranahus har hjulpet os til at blive stærkere som familie. Vi har lært at være ærlige sammen, at rumme og respektere hinanden, og nu kender vi hinanden, som vi virkelig er. Vi blomstrer sammen – ikke hver for sig."   <br><br>- Heidi Søgaard</p>
-                </article>
-            </section>
+            <article class="videos hidden">
+                <video controls>
+                    <source src="inc/videos/about.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls>
+                    <source src="inc/videos/about.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls>
+                    <source src="inc/videos/about.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls>
+                    <source src="inc/videos/about.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls>
+                    <source src="inc/videos/about.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls>
+                    <source src="inc/videos/about.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls>
+                    <source src="inc/videos/about.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </article>
         </section>
 
         <section id="contact">
@@ -229,6 +211,6 @@
             </article>
         </footer>
         <script src="inc/styling/js/common/header.js"></script>
-        <script src="inc/styling/js/index/hero.js"></script>
+        <script src="inc/styling/js/gallery/gallery.js"></script>
     </body>
 </html>
