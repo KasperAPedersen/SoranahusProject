@@ -68,7 +68,7 @@
     --reviewsSectionTitlePaddingWidth: 0px;
     --reviewsSectionMinHeight: 500px;
     --reviewSectionTextWidth: 60%;
-    --reviewSectionTextColor: #fff;
+    --reviewSectionTextColor: var(--secondaryColor);
     --reviewSectionTextParagraphSize: 1.1rem;
     --reviewSectionTextH3Size: 2rem;
 
@@ -76,7 +76,7 @@
     --contactSectionFormPadding: 30px;
     --contactSectionFormBorderRadius: 2px;
     --contactSectionFormMarginHeight: 50px;
-    --contactSectionFormTextColor: #fff;
+    --contactSectionFormTextColor: var(--secondaryColor);
     --contactSectionFormBgColor: var(--primaryColor);
     --contactSectionFormInputMarginHeight: 10px;
     --contactSectionFormInputPaddingHeight: 15px;
