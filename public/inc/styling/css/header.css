@@ -114,6 +114,111 @@ header .socials div:hover {
     display: none;
 }
 
+#mobileModal {
+    z-index: 25;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    margin: var(--headerMobileMargin);
+    padding: var(--headerMobilePadding);
+    background-color: var(--primaryColor);
+    border: transparent;
+    border-radius: 2px;
+
+    opacity: 0;
+    transition: all 0.3s allow-discrete;
+}
+
+#mobileModal::backdrop {
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.3s allow-discrete;
+}
+
+#mobileModal[open] {
+    opacity: 1;
+}
+
+#mobileModal[open]::backdrop {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@starting-style {
+    #mobileModal[open] {
+        opacity: 0;
+    }
+
+    #mobileModal[open]::backdrop {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+#mobileModal i {
+    color: var(--headerMobileExitColor);
+    font-size: var(--headerMobileExitFontSize);
+    width: 100%;
+    text-align: right;
+    cursor: pointer;
+}
+
+#mobileModal nav {
+    display: grid;
+    border-bottom: var(--headerMobileNavBorderBottomThickness) solid var(--headerMobileNavBorderBottomColor);
+    margin: var(--headerMobileNavMarginHeight) 0;
+    padding: var(--headerMobileNavPaddingHeight) 0;
+}
+
+#mobileModal nav a {
+    font-size: var(--headerMobileNavFontSize);
+    margin: var(--headerMobileNavTextMargin) 0;
+    text-decoration: none;
+    color: var(--headerMobileNavTextColor);
+    transition: var(--headerSocialsHoverOpacity);
+    text-align: center;
+}
+
+#mobileModal nav .inactive {
+    opacity: var(--headerNavOpacityColorInactive);
+}
+
+#mobileModal .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 10%;
+}
+
+#mobileModal .socials div {
+    width: var(--headerSocialsWidth);
+    height: var(--headerSocialsHeight);
+    border-radius: 2.5px;
+    margin: 0 2.5px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--headerSocialsBgColor);
+    cursor: pointer;
+    transition: 1s;
+}
+
+#mobileModal .socials div i {
+    color: var(--headerSocialsColor);
+    font-size: var(--headerSocialsFontSize);
+    transition: 1s;
+}
+
+#mobileModal .socials div:hover {
+    background-color: var(--headerSocialsHoverBgColor);
+}
+
+#mobileModal .socials div i:hover {
+
+    color: var(--headerSocialsHoverColor);
+    transition: 0.2s;
+}
+
 /* res */
 @media only screen and (max-width: 1314px) {
     header nav a {

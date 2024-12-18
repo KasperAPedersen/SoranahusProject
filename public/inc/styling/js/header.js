@@ -7,3 +7,8 @@ window.addEventListener('scroll', () => {
         header.classList.remove('headerOnScroll');
     }
 });
+
+let toggleMobileNavigation = () => {
+    let modal = document.getElementById('mobileModal');
+    modal.open ? modal.close() : modal.showModal();
+}

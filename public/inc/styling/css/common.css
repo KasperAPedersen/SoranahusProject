@@ -20,6 +20,19 @@
     --headerSocialsHoverBgColor: var(--primaryColor);
     --headerSocialsHoverOpacity: 0.5s;
 
+    --headerMobileMargin: 15px;
+    --headerMobilePadding: 30px;
+    --headerMobileExitColor: var(--secondaryColor);
+    --headerMobileExitFontSize: 1.8rem;
+    --headerMobileNavBorderBottomColor: var(--secondaryColor);
+    --headerMobileNavBorderBottomThickness: 1px;
+    --headerMobileNavMarginHeight: 25px;
+    --headerMobileNavFontSize: 1.5rem;
+    --headerMobileNavTextMargin: 15px;
+    --headerMobileNavTextColor: var(--secondaryColor);
+    --headerMobileNavPaddingHeight: 25px;
+    --headerMobileNavFontActiveColor: var(--secondaryColor);
+
     --heroTextColor: var(--secondaryColor);
     --heroTitleSize: 6rem;
     --heroParagraphSize: 2.75rem;

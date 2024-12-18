@@ -25,6 +25,22 @@
         <link rel="stylesheet" href="inc/styling/css/footer.css">
     </head>
     <body>
+        <dialog id="mobileModal">
+            <i class="fa fa-times" aria-hidden="true" onclick="toggleMobileNavigation()"></i>
+            <nav>
+                <a href="" class="active">Hjem</a>
+                <a href="" class="inactive">Om Soranahus</a>
+                <a href="" class="inactive">For sagsbehandlere</a>
+                <a href="" class="inactive">For den unge</a>
+                <a href="" class="inactive">Galleri</a>
+                <a href="" class="inactive">Kontakt</a>
+            </nav>
+            <section class="socials">
+                <div><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                <div><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                <div><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+            </section>
+        </dialog>
         <header>
             <section class="logo">
                 <img src="inc/images/logo_tekst.svg" alt="Soranahus logo" />
@@ -38,13 +54,12 @@
                 <a href="" class="inactive">Kontakt</a>
             </nav>
             <section class="socials">
-
                 <div><i class="fa fa-facebook" aria-hidden="true"></i></div>
                 <div><i class="fa fa-instagram" aria-hidden="true"></i></div>
                 <div><i class="fa fa-linkedin" aria-hidden="true"></i></div>
             </section>
             <section id="mobileIcon" class="socials">
-                <div><i class="fa fa-bars" aria-hidden="true"></i></div>
+                <div><i class="fa fa-bars" aria-hidden="true" onclick="toggleMobileNavigation()"></i></div>
             </section>
         </header>
 
