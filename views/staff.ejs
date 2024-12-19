@@ -1,220 +1,140 @@
 <!DOCTYPE HTML>
 <html lang="da-DK">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-          content="Soranahus er et børne- & ungehjem, som hjælper unge gennem de svære teenageår og forbereder dem på en selvstændig voksentilværelse.">
-    <link rel="canonical" href="https://207.154.200.4:5000">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description"
+              content="Soranahus er et børne- & ungehjem, som hjælper unge gennem de svære teenageår og forbereder dem på en selvstændig voksentilværelse.">
+        <link rel="canonical" href="https://207.154.200.4:5000">
 
-    <title>Børne- og Ungehjem | Soranahus</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="inc/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="inc/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="inc/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="inc/images/favicon/site.webmanifest">
-    <script src="https://kit.fontawesome.com/d7cb81324e.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Leckerli+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yanone+Kaffeesatz:wght@200..700&display=swap"
-          rel="stylesheet">
+        <title>Børne- og Ungehjem | Soranahus</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="inc/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="inc/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="inc/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="inc/images/favicon/site.webmanifest">
+        <script src="https://kit.fontawesome.com/d7cb81324e.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Leckerli+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yanone+Kaffeesatz:wght@200..700&display=swap"
+              rel="stylesheet">
 
-    <link rel="stylesheet" href="inc/styling/css/common/common.css">
-    <link rel="stylesheet" href="inc/styling/css/common/header.css">
-    <link rel="stylesheet" href="inc/styling/css/common/contact.css">
-    <link rel="stylesheet" href="inc/styling/css/common/footer.css">
+        <link rel="stylesheet" href="inc/styling/css/common/common.css">
+        <link rel="stylesheet" href="inc/styling/css/common/header.css">
+        <link rel="stylesheet" href="inc/styling/css/common/contact.css">
+        <link rel="stylesheet" href="inc/styling/css/common/footer.css">
 
-    <link rel="stylesheet" href="inc/styling/css/staff/common.css">
-    <link rel="stylesheet" href="inc/styling/css/staff/staff.css">
-</head>
-<body>
-<dialog id="mobileModal">
-    <i class="fa fa-times" aria-hidden="true" onclick="toggleMobileNavigation()"></i>
-    <nav>
-        <a href="/" class="inactive">Hjem</a>
-        <a href="/staff" class="active">Om Soranahus</a>
-        <a href="" class="inactive">For sagsbehandlere</a>
-        <a href="" class="inactive">For den unge</a>
-        <a href="/gallery" class="inactive">Galleri</a>
-        <a href="" class="inactive">Kontakt</a>
-    </nav>
-    <section class="socials">
-        <div onclick="window.open('https://www.facebook.com/soranahus/', '_blank');"><i class="fa fa-facebook"
-                                                                                        aria-hidden="true"></i></div>
-        <div onclick="window.open('https://www.instagram.com/soranahus/', '_blank');"><i class="fa fa-instagram"
-                                                                                         aria-hidden="true"></i></div>
-        <div onclick="window.open('https://www.linkedin.com/organization-guest/company/soranahus', '_blank');"><i
-                    class="fa fa-linkedin" aria-hidden="true"></i></div>
-    </section>
-</dialog>
-<header>
-    <section class="logo">
-        <img src="inc/images/logo_tekst.svg" alt="Soranahus logo"/>
-    </section>
-    <nav>
-        <a href="/" class="inactive">Hjem</a>
-        <div class="dropdown">
-            <a href="/staff" class="active dropbtn">Om Soranahus</a>
-            <div class="dropdown-content">
-                <a href="/staff" class="active">Personale</a>
-            </div>
-        </div>
-        <a href="" class="inactive">For sagsbehandlere</a>
-        <a href="" class="inactive">For den unge</a>
-        <a href="/gallery" class="inactive">Galleri</a>
-        <a href="" class="inactive">Kontakt</a>
-    </nav>
-    <section class="socials">
-        <div onclick="window.open('https://www.facebook.com/soranahus/', '_blank');"><i class="fa fa-facebook"
-                                                                                        aria-hidden="true"></i></div>
-        <div onclick="window.open('https://www.instagram.com/soranahus/', '_blank');"><i class="fa fa-instagram"
-                                                                                         aria-hidden="true"></i></div>
-        <div onclick="window.open('https://www.linkedin.com/organization-guest/company/soranahus', '_blank');"><i
-                    class="fa fa-linkedin" aria-hidden="true"></i></div>
-    </section>
-    <section id="mobileIcon" class="socials">
-        <div><i class="fa fa-bars" aria-hidden="true" onclick="toggleMobileNavigation()"></i></div>
-    </section>
-</header>
+        <link rel="stylesheet" href="inc/styling/css/staff/common.css">
+        <link rel="stylesheet" href="inc/styling/css/staff/staff.css">
+    </head>
+    <body>
+        <dialog id="mobileModal">
+            <article class="header">
+                <i class=" mobileModalBackArrow fa fa-angle-left" aria-hidden="true" onclick="changeMobileModal('default')"></i>
+                <i class="fa fa-times" aria-hidden="true" onclick="toggleMobileNavigation()"></i>
+            </article>
+            <nav class="defaultModal mobileNavigationModal">
+                <a href="/" class="inactive">Hjem</a>
+                <p class="active" onclick="changeMobileModal('staff')">Om Soranahus</p>
+                <a href="/" class="inactive">For sagsbehandlere</a>
+                <a href="/" class="inactive">For den unge</a>
+                <a href="/gallery" class="inactive">Galleri</a>
+                <a href="/" class="inactive">Kontakt</a>
+            </nav>
+            <nav class="staffModal mobileNavigationModal">
+                <a class="active" href="/staff">Personale</a>
+            </nav>
+            <section class="socials">
+                <div onclick="window.open('https://www.facebook.com/soranahus/', '_blank');"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                <div onclick="window.open('https://www.instagram.com/soranahus/', '_blank');"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                <div onclick="window.open('https://www.linkedin.com/organization-guest/company/soranahus', '_blank');"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+            </section>
+        </dialog>
+        <header>
+            <section class="logo">
+                <img src="inc/images/logo_tekst.svg" alt="Soranahus logo"/>
+            </section>
+            <nav>
+                <a href="/" class="inactive">Hjem</a>
+                <div class="dropdown">
+                    <a href="/staff" class="active dropbtn">Om Soranahus</a>
+                    <div class="dropdown-content">
+                        <a href="/staff" class="active">Personale</a>
+                    </div>
+                </div>
+                <a href="" class="inactive">For sagsbehandlere</a>
+                <a href="" class="inactive">For den unge</a>
+                <a href="/gallery" class="inactive">Galleri</a>
+                <a href="" class="inactive">Kontakt</a>
+            </nav>
+            <section class="socials">
+                <div onclick="window.open('https://www.facebook.com/soranahus/', '_blank');"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                <div onclick="window.open('https://www.instagram.com/soranahus/', '_blank');"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                <div onclick="window.open('https://www.linkedin.com/organization-guest/company/soranahus', '_blank');"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+            </section>
+            <section id="mobileIcon" class="socials">
+                <div><i class="fa fa-bars" aria-hidden="true" onclick="toggleMobileNavigation()"></i></div>
+            </section>
+        </header>
 
-<section class="staff">
-    <article class="welcome">
-        <h1>Personale</h1>
-        <p>Soranahus faste medarbejdere har i forbindelse med ansættelse gennemført et forløb, der munder ud i
-            opstilling af en personlig, faglig udviklingsplan, som sigter mod at opnå et generelt højt kompetence- og
-            kvalifikationsniveau på Soranahus generelt og hos den enkelte.
-            Dette for at udvikle Soranahus til en mønstervirksomhed, der udgør et meningsfuldt praksisfelt for
-            medarbejderne – og som skaber bæredygtige resultater for de unge/borgerne. Soranahus arbejder kun med
-            personale som alle har en baggrund og erfaring der til enhver tid vil kunne understøtte de unges
-            behandlingsbehov.
-            Soranahus sætter krav til at alle i personalestaben deltager i både supervision og intern uddannelse der
-            foregår løbende.</p>
-    </article>
-</section>
+        <section class="staff">
+            <article class="welcome">
+                <h1>Personale</h1>
+                <p>Soranahus faste medarbejdere har i forbindelse med ansættelse gennemført et forløb, der munder ud i
+                    opstilling af en personlig, faglig udviklingsplan, som sigter mod at opnå et generelt højt kompetence- og
+                    kvalifikationsniveau på Soranahus generelt og hos den enkelte.
+                    Dette for at udvikle Soranahus til en mønstervirksomhed, der udgør et meningsfuldt praksisfelt for
+                    medarbejderne – og som skaber bæredygtige resultater for de unge/borgerne. Soranahus arbejder kun med
+                    personale som alle har en baggrund og erfaring der til enhver tid vil kunne understøtte de unges
+                    behandlingsbehov.
+                    Soranahus sætter krav til at alle i personalestaben deltager i både supervision og intern uddannelse der
+                    foregår løbende.</p>
+            </article>
+        </section>
 
-<section class="staffCards">
-    <article class="card">
-        <section class="image">
-            <img src="inc/images/personale/max.jpg" alt="card image"/>
-        </section>
-        <section class="text">
-            <h3>Max Seeger</h3>
-            <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
-        </section>
-    </article>
-    <article class="card">
-        <section class="image">
-            <img src="inc/images/personale/max.jpg" alt="card image"/>
-        </section>
-        <section class="text">
-            <h3>Max Seeger</h3>
-            <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
-        </section>
-    </article>
-    <article class="card">
-        <section class="image">
-            <img src="inc/images/personale/max.jpg" alt="card image"/>
-        </section>
-        <section class="text">
-            <h3>Max Seeger</h3>
-            <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
-        </section>
-    </article>
-    <article class="card">
-        <section class="image">
-            <img src="inc/images/personale/max.jpg" alt="card image"/>
-        </section>
-        <section class="text">
-            <h3>Max Seeger</h3>
-            <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
-        </section>
-    </article>
-    <article class="card">
-        <section class="image">
-            <img src="inc/images/personale/max.jpg" alt="card image"/>
-        </section>
-        <section class="text">
-            <h3>Max Seeger</h3>
-            <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
-        </section>
-    </article>
-    <article class="card">
-        <section class="image">
-            <img src="inc/images/personale/max.jpg" alt="card image"/>
-        </section>
-        <section class="text">
-            <h3>Max Seeger</h3>
-            <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
-        </section>
-    </article>
-</section>
-
-<section class="staff">
-    <article class="welcome">
-        <h1>Drift og Administration</h1>
-        <p>Økonomistyring, IT-systemer og GDPR, Fysiske rammer, Virksomhedsdokumentation, Rapportering samt ekstern
-            kommunikation</p>
-    </article>
-</section>
-
-<section class="staffCards">
-    <article class="card">
-        <section class="image">
-            <img src="inc/images/personale/max.jpg" alt="card image"/>
-        </section>
-        <section class="text">
-            <h3>Max Seeger</h3>
-            <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
-        </section>
-    </article>
-    <article class="card">
-        <section class="image">
-            <img src="inc/images/personale/max.jpg" alt="card image"/>
-        </section>
-        <section class="text">
-            <h3>Max Seeger</h3>
-            <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
-        </section>
-    </article>
-    <article class="card">
-        <section class="image">
-            <img src="inc/images/personale/max.jpg" alt="card image"/>
-        </section>
-        <section class="text">
-            <h3>Max Seeger</h3>
-            <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
-        </section>
-    </article>
-</section>
-
-<section id="contact">
-    <article class="form">
-        <form action="" method="POST">
-            <label for="name">Navn</label>
-            <input type="text" name="name" placeholder=""/>
-            <label for="email">E-mail</label>
-            <input type="email" name="email" placeholder=""/>
-            <label for="phone">Telefon</label>
-            <input type="tel" name="phone" placeholder=""/>
-            <label for="subject">Emne</label>
-            <input type="text" name="subject" placeholder=""/>
-            <label for="message">Besked</label>
-            <textarea name="message" placeholder=""></textarea>
-            <button type="submit">Send</button>
-            <div class="clear-fix"></div>
-        </form>
-    </article>
-    <article class="info">
-        <h3>Skriv til os vedr. vores børne- og ungehjem</h3>
-        <p>Har du spørgsmål eller lignende, så er du velkommen til at skrive til os via kontaktformularen eller ringe
-            til os på tlf: <a href="#">57 80 67 80</a></p>
-        <section>
+        <section class="staffCards">
             <article class="card">
                 <section class="image">
-                    <img src="inc/images/personale/heidi.jpg" alt="card image"/>
+                    <img src="inc/images/personale/max.jpg" alt="card image"/>
                 </section>
                 <section class="text">
-                    <h3>Heidi Seeger</h3>
-                    <p>Leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">heidi@soranahus.dk</a></p>
+                    <h3>Max Seeger</h3>
+                    <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
+                </section>
+            </article>
+            <article class="card">
+                <section class="image">
+                    <img src="inc/images/personale/max.jpg" alt="card image"/>
+                </section>
+                <section class="text">
+                    <h3>Max Seeger</h3>
+                    <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
+                </section>
+            </article>
+            <article class="card">
+                <section class="image">
+                    <img src="inc/images/personale/max.jpg" alt="card image"/>
+                </section>
+                <section class="text">
+                    <h3>Max Seeger</h3>
+                    <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
+                </section>
+            </article>
+            <article class="card">
+                <section class="image">
+                    <img src="inc/images/personale/max.jpg" alt="card image"/>
+                </section>
+                <section class="text">
+                    <h3>Max Seeger</h3>
+                    <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
+                </section>
+            </article>
+            <article class="card">
+                <section class="image">
+                    <img src="inc/images/personale/max.jpg" alt="card image"/>
+                </section>
+                <section class="text">
+                    <h3>Max Seeger</h3>
+                    <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
                 </section>
             </article>
             <article class="card">
@@ -227,35 +147,115 @@
                 </section>
             </article>
         </section>
-    </article>
-</section>
 
-<footer>
-    <article>
-        <h3>Fonden Soranahus<br><br></h3>
-        <p><a href="#">Døgnbehandling, BL §43<br></a>
-            <a href="#">Aflastning<br></a>
-            <a href="#">Familiesupervision<br></a>
-            <a href="#">BL §114 Ungestøtte</a>
-        </p>
-    </article>
-    <article>
-        <h3>Soranahus i Undløse<br><br></h3>
-        <p>Hovedgaden 16<br>
-            4340 Tølløse<br>
-            Tlf.: <a href="#">+45 57 80 67 80</a><br>
-            Email: <a href="#">mail@soranahus.dk</a>
-        </p>
-    </article>
-    <article>
-        <h3>Lovgivning<br><br></h3>
-        <p><a href="#">GDPR<br></a>
-            <a href="#">Privatliv og databeskyttelse<br></a>
-            <a href="#">G-6 Facebook forbehold</a>
-        </p>
-    </article>
-</footer>
-<script src="inc/styling/js/common/header.js"></script>
-<script src="inc/styling/js/staff/staff.js"></script>
-</body>
+        <section class="staff">
+            <article class="welcome">
+                <h1>Drift og Administration</h1>
+                <p>Økonomistyring, IT-systemer og GDPR, Fysiske rammer, Virksomhedsdokumentation, Rapportering samt ekstern
+                    kommunikation</p>
+            </article>
+        </section>
+
+        <section class="staffCards">
+            <article class="card">
+                <section class="image">
+                    <img src="inc/images/personale/max.jpg" alt="card image"/>
+                </section>
+                <section class="text">
+                    <h3>Max Seeger</h3>
+                    <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
+                </section>
+            </article>
+            <article class="card">
+                <section class="image">
+                    <img src="inc/images/personale/max.jpg" alt="card image"/>
+                </section>
+                <section class="text">
+                    <h3>Max Seeger</h3>
+                    <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
+                </section>
+            </article>
+            <article class="card">
+                <section class="image">
+                    <img src="inc/images/personale/max.jpg" alt="card image"/>
+                </section>
+                <section class="text">
+                    <h3>Max Seeger</h3>
+                    <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
+                </section>
+            </article>
+        </section>
+
+        <section id="contact">
+            <article class="form">
+                <form action="" method="POST">
+                    <label for="name">Navn</label>
+                    <input type="text" name="name" placeholder=""/>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder=""/>
+                    <label for="phone">Telefon</label>
+                    <input type="tel" name="phone" placeholder=""/>
+                    <label for="subject">Emne</label>
+                    <input type="text" name="subject" placeholder=""/>
+                    <label for="message">Besked</label>
+                    <textarea name="message" placeholder=""></textarea>
+                    <button type="submit">Send</button>
+                    <div class="clear-fix"></div>
+                </form>
+            </article>
+            <article class="info">
+                <h3>Skriv til os vedr. vores børne- og ungehjem</h3>
+                <p>Har du spørgsmål eller lignende, så er du velkommen til at skrive til os via kontaktformularen eller ringe
+                    til os på tlf: <a href="#">57 80 67 80</a></p>
+                <section>
+                    <article class="card">
+                        <section class="image">
+                            <img src="inc/images/personale/heidi.jpg" alt="card image"/>
+                        </section>
+                        <section class="text">
+                            <h3>Heidi Seeger</h3>
+                            <p>Leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">heidi@soranahus.dk</a></p>
+                        </section>
+                    </article>
+                    <article class="card">
+                        <section class="image">
+                            <img src="inc/images/personale/max.jpg" alt="card image"/>
+                        </section>
+                        <section class="text">
+                            <h3>Max Seeger</h3>
+                            <p>Administratic leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
+                        </section>
+                    </article>
+                </section>
+            </article>
+        </section>
+
+        <footer>
+            <article>
+                <h3>Fonden Soranahus<br><br></h3>
+                <p><a href="#">Døgnbehandling, BL §43<br></a>
+                    <a href="#">Aflastning<br></a>
+                    <a href="#">Familiesupervision<br></a>
+                    <a href="#">BL §114 Ungestøtte</a>
+                </p>
+            </article>
+            <article>
+                <h3>Soranahus i Undløse<br><br></h3>
+                <p>Hovedgaden 16<br>
+                    4340 Tølløse<br>
+                    Tlf.: <a href="#">+45 57 80 67 80</a><br>
+                    Email: <a href="#">mail@soranahus.dk</a>
+                </p>
+            </article>
+            <article>
+                <h3>Lovgivning<br><br></h3>
+                <p><a href="#">GDPR<br></a>
+                    <a href="#">Privatliv og databeskyttelse<br></a>
+                    <a href="#">G-6 Facebook forbehold</a>
+                </p>
+            </article>
+        </footer>
+        <script src="inc/styling/js/common/header.js"></script>
+        <script src="inc/styling/js/staff/staff.js"></script>
+    </body>
 </html>

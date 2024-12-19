@@ -26,14 +26,20 @@
     </head>
     <body>
         <dialog id="mobileModal">
-            <i class="fa fa-times" aria-hidden="true" onclick="toggleMobileNavigation()"></i>
-            <nav>
+            <article class="header">
+                <i class=" mobileModalBackArrow fa fa-angle-left" aria-hidden="true" onclick="changeMobileModal('default')"></i>
+                <i class="fa fa-times" aria-hidden="true" onclick="toggleMobileNavigation()"></i>
+            </article>
+            <nav class="defaultModal mobileNavigationModal">
                 <a href="/" class="inactive">Hjem</a>
-                <a href="/staff" class="inactive">Om Soranahus</a>
-                <a href="" class="inactive">For sagsbehandlere</a>
-                <a href="" class="inactive">For den unge</a>
-                <a href="" class="active">Galleri</a>
-                <a href="" class="inactive">Kontakt</a>
+                <p class="inactive" onclick="changeMobileModal('staff')">Om Soranahus</p>
+                <a href="/" class="inactive">For sagsbehandlere</a>
+                <a href="/" class="inactive">For den unge</a>
+                <a href="/gallery" class="active">Galleri</a>
+                <a href="/" class="inactive">Kontakt</a>
+            </nav>
+            <nav class="staffModal mobileNavigationModal">
+                <a class="inactive" href="/staff">Personale</a>
             </nav>
             <section class="socials">
                 <div onclick="window.open('https://www.facebook.com/soranahus/', '_blank');"><i class="fa fa-facebook" aria-hidden="true"></i></div>

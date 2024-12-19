@@ -154,12 +154,27 @@ header .socials div:hover {
     }
 }
 
+#mobileModal > article {
+    display: flex;
+}
+
 #mobileModal i {
-    color: var(--headerMobileExitColor);
     font-size: var(--headerMobileExitFontSize);
-    width: 100%;
-    text-align: right;
+    width: 50%;
+    color: var(--headerMobileNavTextColor);
     cursor: pointer;
+}
+
+#mobileModal i:first-of-type {
+    text-align: left;
+}
+
+#mobileModal i:last-of-type {
+    text-align: right;
+}
+
+#mobileModal .mobileModalBackArrow {
+    visibility: hidden;
 }
 
 #mobileModal nav {
@@ -169,7 +184,8 @@ header .socials div:hover {
     padding: var(--headerMobileNavPaddingHeight) 0;
 }
 
-#mobileModal nav a {
+#mobileModal nav a,
+#mobileModal nav p {
     font-size: var(--headerMobileNavFontSize);
     margin: var(--headerMobileNavTextMargin) 0;
     text-decoration: none;
@@ -217,6 +233,10 @@ header .socials div:hover {
 
     color: var(--headerSocialsHoverColor);
     transition: 0.2s;
+}
+
+#mobileModal .staff {
+    display: none;
 }
 
 /* dropdown */
