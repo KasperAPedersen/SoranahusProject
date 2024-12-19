@@ -219,6 +219,50 @@ header .socials div:hover {
     transition: 0.2s;
 }
 
+/* dropdown */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    margin: 10px 0 0 0;
+    display: block; /* Compatibility for hover-based display */
+    opacity: 0; /* Initially invisible */
+    visibility: hidden; /* Hidden to prevent interaction */
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    max-height: 0; /* Initially zero height */
+    overflow: hidden; /* Hide content when height is 0 */
+    background-color: var(--secondaryColor);
+    transition: max-height 0.5s ease, opacity 0.5s ease, visibility 0.5s ease; /* Smooth growth animation */
+}
+
+.dropdown:hover .dropdown-content {
+    opacity: 1; /* Fully visible */
+    visibility: visible; /* Make interactable */
+    max-height: 200px; /* Set to the dropdown's full height (adjust as required) */
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    opacity: 0.5;
+}
+
+.dropdown-content a:hover {
+    color: var(--primaryColor);
+    opacity: 1;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+
 /* res */
 @media only screen and (max-width: 1314px) {
     header nav a {
