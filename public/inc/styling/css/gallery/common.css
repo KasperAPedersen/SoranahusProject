@@ -1,3 +1,56 @@
 :root {
+    --galleryHeaderHeight: 500px;
+
+    --gallertH1Color: var(--secondaryColor);
+    --galleryH1FontSize: 4rem;
+
+    --galleryCategoryMargin: 50px auto;
+    --galleryCategoryWidth: 40%;
+
+    --galleryCategoryPMargin: 15px 30px;
+    --galleryCategoryPFontSize: 2rem;
+    --galleryCategoryPColor: var(--primaryColor);
+
+    --galleryCategoryAHoverBorderBottomColor: 1px solid var(--primaryColor);
+
+    --galleryCategoryAActiveBorderBottomColor: 1px solid var(--primaryColor);
+
+    --galleryImagesHeight: 700px;
+    --galleryImagesWidth: 90%;
+    --galleryImagesMargin: 0 auto;
+
+    --galleryImagesRowGap: 8px;
+
+    --galleryImagesColumnMarginTop: 8px;
+    --galleryImagesColumnBoxShadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    --galleryImagesScrollbarWidth: 10px;
+
+    --gallerImagesScrollbarThumbBorderRadius: 8px;
+    --galleryImagesScrollbarThumbBgColor: var(--primaryColor);
+    --galleryImagesScrollbarThumbHoverBgColor: var(--secondaryColor);
+    --galleryImagesScrollbarThumbBorder: 2px solid var(--secondaryColor);
+
+    --galleryVideosMaxHeight: 700px;
+    --galleryVideosWidth: 90%;
+    --galleryVideosMargin: 0 auto;
+    --galleryVideosGap: 15px;
+
+    --galleryVideosVideoWidth: 100%;
+    --galleryVideosVideoHeight: 450px;
+    --galleryVideosVideoBgColor: #000;
+    --galleryVideosVideoBoxShadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    --gallery1440pxWidth: 60%;
+
+    --gallery1024pxFontSize: 3rem;
+
+    --gallery768pxHeight: 300px;
+    --gallery768pxCategoryWidth: 100%;
+    --gallery768pxCategoryPFontSize: 1.5rem;
+
+    --gallery425pxH1FontSize: 2rem;
+    --gallery425pxHeight: 300px;
+    --gallery425pxCategoryPFontSize: 1.2rem;
 
 }

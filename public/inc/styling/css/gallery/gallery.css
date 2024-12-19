@@ -1,5 +1,5 @@
 #gallery {
-    height: 500px;
+    height: var(--galleryHeaderHeight);
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../../images/gallery_bg.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -11,48 +11,48 @@
 }
 
 #gallery h1 {
-    color: #fff;
-    font-size: 4rem;
+    color: var(--gallertH1Color);
+    font-size: var(--galleryH1FontSize);
 }
 
 #view .category {
-    margin: 50px auto;
-    width: 40%;
+    margin: var(--galleryCategoryMargin);
+    width: var(--galleryCategoryWidth);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
 }
 
 #view .category p {
-    padding: 15px 30px;
-    font-size: 2rem;
+    padding: var(--galleryCategoryPMargin);
+    font-size: var(--galleryCategoryPFontSize);
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--primaryColor);
+    color: var(--galleryCategoryPColor);
     transition: 1s;
     cursor: pointer;
 }
 
 #view .category a:hover {
-    border-bottom: 1px solid var(--primaryColor);
+    border-bottom: var(--galleryCategoryAHoverBorderBottomColor);
 }
 
 #view .category .active {
-    border-bottom: 1px solid var(--primaryColor);
+    border-bottom: var(--galleryCategoryAActiveBorderBottomColor);
 }
 
 #view .images{
-    height: 700px;
+    height: var(--galleryImagesHeight);
     overflow-y: scroll;
     overflow-x: hidden;
-    width: 90%;
-    margin: 0 auto;
+    width: var(--galleryImagesWidth);
+    margin: var(--galleryImagesMargin);
 }
 
 #view .images .row{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 8px;
+    gap: var(--galleryImagesRowGap);
 }
 
 #view .hidden,
@@ -61,78 +61,78 @@
 }
 
 #view .column img {
-    margin-top: 8px;
+    margin-top: var(--galleryImagesColumnMarginTop);
     vertical-align: middle;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: var(--galleryImagesColumnBoxShadow);
 }
 
 #view .images::-webkit-scrollbar,
 #view .videos::-webkit-scrollbar {
-    width: 10px; /* Width of the vertical scrollbar */
+    width: var(--galleryImagesScrollbarWidth); /* Width of the vertical scrollbar */
 }
 
 #view .images::-webkit-scrollbar-track,
 #view .videos::-webkit-scrollbar-track {
     background: transparent; /* Background color of the scrollbar track */
-    border-radius: 8px; /* Optional: Rounded corners */
+    border-radius: var(--gallerImagesScrollbarThumbBorderRadius); /* Optional: Rounded corners */
 }
 
 #view .images::-webkit-scrollbar-thumb,
 #view .videos::-webkit-scrollbar-thumb {
-    background-color: var(--primaryColor); /* Color of the scrollbar thumb */
-    border-radius: 8px; /* Optional: Rounded corners */
-    border: 2px solid #fff; /* Optional: Space between the thumb and track */
+    background-color: var(--galleryImagesScrollbarThumbBgColor); /* Color of the scrollbar thumb */
+    border-radius: var(--gallerImagesScrollbarThumbBorderRadius); /* Optional: Rounded corners */
+    border: var(--galleryImagesScrollbarThumbBorder); /* Optional: Space between the thumb and track */
 }
 
 #view .images::-webkit-scrollbar-thumb:hover,
 #view .videos::-webkit-scrollbar-thumb:hover {
-    background-color: var(--primaryColor); /* Color on hover */
+    background-color: var(--galleryImagesScrollbarThumbHoverBgColor); /* Color on hover */
 }
 
  /* -- */
 #view .videos{
-    max-height: 700px;
+    max-height: var(--galleryVideosMaxHeight);
     overflow-y: scroll;
     overflow-x: hidden;
-    width: 90%;
-    margin: 0 auto;
+    width: var(--galleryVideosWidth);
+    margin: var(--galleryVideosMargin);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: var(--galleryVideosGap);
 }
 
 #view .videos video {
-    width: 100%;
-    height: 450px;
+    width: var(--galleryVideosVideoWidth);
+    height: var(--galleryVideosVideoHeight);
     object-fit: contain;
-    background-color: #000;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: var(--galleryVideosVideoBgColor);
+    box-shadow: var(--galleryVideosVideoBoxShadow);
 }
 
 /* -- */
 @media only screen and (max-width: 1440px){
     #view .category {
-        width: 60%;
+        width: var(--gallery1440pxWidth);
     }
 }
 
 @media only screen and (max-width: 1024px){
     #gallery h1 {
-        font-size: 3rem;
+        font-size: var(--gallery1024pxFontSize);
     }
 }
 
 @media only screen and (max-width: 768px){
     #gallery {
-        height: 350px;
+        height: var(--gallery768pxHeight);
     }
 
     #view .category {
-        width: 100%;
+        width: var(--gallery768pxCategoryWidth);
     }
 
     #view .category p {
-        font-size: 1.5rem;
+        font-size: var(--gallery768pxCategoryPFontSize);
     }
 
     #view .videos{
@@ -142,14 +142,14 @@
 
 @media only screen and (max-width: 425px){
     #gallery h1 {
-        font-size: 2rem;
+        font-size: var(--gallery425pxH1FontSize);
     }
 
     #gallery {
-        height: 300px;
+        height: var(--gallery425pxHeight);
     }
 
     #view .category p {
-        font-size: 1.2rem;
+        font-size: var(--gallery425pxCategoryPFontSize);
     }
 }
