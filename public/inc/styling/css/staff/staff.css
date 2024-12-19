@@ -1,6 +1,6 @@
-#staff {
-    height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../../images/gallery_bg.jpg");
+.staff {
+    min-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../images/staff_bg.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,17 +11,74 @@
 
 }
 
-#staff article {
+.staff article {
     width: 60%;
     text-align: center;
     color: #fff;
 }
 
-#staff h1 {
+.staff h1 {
     font-size: 2rem;
     padding: 50px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-#staff p {
+.staff p {
     line-height: 1.5rem;
+}
+
+.staffCards  {
+    margin: var(--contactSectionInfoPaddingHeight) 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
+    background-color: #fff;
+}
+
+.staffCards .card {
+    margin: var(--contactSectionCardMargin);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.staffCards .card a {
+    text-decoration: none;
+    color: var(--contactSectionCardColor);
+}
+
+.staffCards .card .image {
+    width: 100%;
+    height: var(--contactSectionCardImageHeight);
+}
+
+.staffCards .card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.staffCards .card .text {
+    text-align: left;
+    padding: var(--contactSectionCardTextPadding);
+    background-color: var(--contactSectionCardBgcolor);
+    color: var(--contactSectionCardColor);
+}
+
+@media only screen and (max-width: 1024px) {
+    .staff h1 {
+        padding: 25px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .staff {
+        padding: 100px 0;
+    }
+
+    .staff p {
+        font-size: 0.8rem;
+    }
+
+    .staff article {
+        width: calc(100% - 30px);
+    }
 }
