@@ -1,3 +1,67 @@
+.about {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../../../images/gallery_bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.about article {
+    width: 60%;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 2rem;
+    padding: 25px 0;
+    color: #fff;
+}
+
+.about p,
+.about li {
+    line-height: 1.5rem;
+    color: #fff;
+}
+
+.about li {
+    list-style: none;
+}
+
+.frameworks {
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    justify-items: center;
+    align-content: center;
+    padding: 50px;
+}
+
+.frameworks article {
+    width: 60%;
+    text-align: center;
+}
+
+.frameworks a {
+    text-decoration: none;
+    color: var(--secondaryColor);
+}
+
+.frameworks h1 {
+    font-size: 2rem;
+    padding: 25px 0;
+}
+
+.frameworks h2 {
+    font-size: 1.5rem;
+    padding: 25px 0;
+}
+
+.frameworks p {
+    line-height: 1.5rem;
+}
+
 .staff {
     min-height: 500px;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../../../images/staff_bg.jpg");
@@ -70,9 +134,70 @@
     color: var(--contactSectionCardColor);
 }
 
+.students {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+    justify-items: center;
+    align-content: center;
+    padding: 50px;
+}
+
+.students article {
+    width: 60%;
+    text-align: center;
+}
+
+.students a {
+    text-decoration: none;
+    color: var(--secondaryColor);
+}
+
+.students h1 {
+    font-size: 2rem;
+    padding: 25px 0;
+}
+
+.students p {
+    line-height: 1.5rem;
+}
+
+.jobs {
+    color: var(--primaryColor);
+    justify-items: center;
+    align-content: center;
+    padding: 50px;
+}
+
+.jobs article {
+    width: 60%;
+    text-align: center;
+}
+
+.jobs a {
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+
+.jobs h1,
+.jobs h2{
+    font-size: 2rem;
+    padding: 25px 0;
+}
+
+.students p {
+    line-height: 1.5rem;
+}
+
 @media only screen and (max-width: 1024px) {
     .staff h1 {
         padding: 25px 0;
+    }
+
+    .about article,
+    .frameworks article,
+    .students article,
+    .jobs article {
+        width: 80%;
     }
 }
 
@@ -86,6 +211,13 @@
     }
 
     .staff article {
+        width: calc(100% - 30px);
+    }
+
+    .about article,
+    .frameworks article,
+    .students article,
+    .jobs article {
         width: calc(100% - 30px);
     }
 }
