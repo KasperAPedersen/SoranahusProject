@@ -7,11 +7,13 @@ route.get('/galleri', (req, res) => {
 });
 
 route.get('/for-sagsbehandlere', (req, res) => {
-    res.render('forCaseworkers.ejs');
+    //res.render('forCaseworkers.ejs');
+    res.render('index.ejs');
 });
 
 route.get('/for-den-unge', (req, res) => {
-    res.render('fortheYoung.ejs');
+    //res.render('fortheYoung.ejs');
+    res.render('index.ejs');
 });
 
 route.get('/om-soranahus', (req, res) => {
