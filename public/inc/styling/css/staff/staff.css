@@ -4,10 +4,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    justify-items: center;
-    align-content: center;
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about article {
@@ -37,6 +38,10 @@
     justify-items: center;
     align-content: center;
     padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .frameworks article {
@@ -141,6 +146,10 @@
     justify-items: center;
     align-content: center;
     padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .students article {
@@ -167,6 +176,10 @@
     justify-items: center;
     align-content: center;
     padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .jobs article {
