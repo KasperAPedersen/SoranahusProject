@@ -114,6 +114,8 @@ header .socials div:hover {
     display: none;
 }
 
+
+
 #mobileModal {
     z-index: 25;
     position: fixed;
@@ -129,6 +131,11 @@ header .socials div:hover {
 
     opacity: 0;
     transition: all 0.3s allow-discrete;
+}
+
+#mobileModal nav,
+#mobileModal .socials{
+    width: 100%;
 }
 
 #mobileModal::backdrop {
@@ -235,7 +242,8 @@ header .socials div:hover {
     transition: 0.2s;
 }
 
-#mobileModal .staff {
+#mobileModal .staffModal,
+#mobileModal .forCaseWorkersModal {
     display: none;
 }
 
@@ -254,8 +262,7 @@ header .socials div:hover {
     position: absolute;
     z-index: 1;
     width: 100%;
-    max-height: 0;
-    overflow: hidden;
+    height: auto;
     background-color: var(--secondaryColor);
     transition: max-height 0.5s ease, opacity 0.5s ease, visibility 0.5s ease;
 }
@@ -263,7 +270,6 @@ header .socials div:hover {
 .dropdown:hover .dropdown-content {
     opacity: 1;
     visibility: visible;
-    max-height: 200px;
 }
 
 .dropdown-content a {

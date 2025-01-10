@@ -1,388 +1,395 @@
 <!DOCTYPE HTML>
 <html lang="da-DK">
-<head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KNJSCWDHVY"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KNJSCWDHVY"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        gtag('config', 'G-KNJSCWDHVY');
-    </script>
+            gtag('config', 'G-KNJSCWDHVY');
+        </script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-          content="Soranahus er et børne- & ungehjem, som hjælper unge gennem de svære teenageår og forbereder dem på en selvstændig voksentilværelse.">
-    <link rel="canonical" href="https://soranahus.weblaunch.dk">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description"
+              content="Soranahus er et børne- & ungehjem, som hjælper unge gennem de svære teenageår og forbereder dem på en selvstændig voksentilværelse.">
+        <link rel="canonical" href="https://soranahus.weblaunch.dk">
 
-    <title>Børne- og Ungehjem | Soranahus</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="inc/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="inc/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="inc/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="inc/images/favicon/site.webmanifest">
-    <script src="https://kit.fontawesome.com/d7cb81324e.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Leckerli+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yanone+Kaffeesatz:wght@200..700&display=swap"
-          rel="stylesheet">
+        <title>Børne- og Ungehjem | Soranahus</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="inc/images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="inc/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="inc/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="inc/images/favicon/site.webmanifest">
+        <script src="https://kit.fontawesome.com/d7cb81324e.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Leckerli+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yanone+Kaffeesatz:wght@200..700&display=swap"
+              rel="stylesheet">
 
-    <link rel="stylesheet" href="inc/styling/css/common/common.css">
-    <link rel="stylesheet" href="inc/styling/css/common/header.css">
-    <link rel="stylesheet" href="inc/styling/css/common/contact.css">
-    <link rel="stylesheet" href="inc/styling/css/common/footer.css">
+        <link rel="stylesheet" href="inc/styling/css/common/common.css">
+        <link rel="stylesheet" href="inc/styling/css/common/header.css">
+        <link rel="stylesheet" href="inc/styling/css/common/contact.css">
+        <link rel="stylesheet" href="inc/styling/css/common/footer.css">
 
-    <link rel="stylesheet" href="inc/styling/css/staff/common.css">
-    <link rel="stylesheet" href="inc/styling/css/staff/staff.css">
-</head>
-<body>
-<dialog id="mobileModal">
-    <article class="header">
-        <i class=" mobileModalBackArrow fa fa-angle-left" aria-hidden="true" onclick="changeMobileModal('default')"></i>
-        <i class="fa fa-times" aria-hidden="true" onclick="toggleMobileNavigation()"></i>
-    </article>
-    <nav class="defaultModal mobileNavigationModal">
-        <a href="/" class="inactive">Hjem</a>
-        <p class="inactive" onclick="changeMobileModal('staff')">Om Soranahus</p>
-        <a href="/for-sagsbehandlere" class="active">For sagsbehandlere</a>
-        <a href="/for-den-unge" class="inactive">For den unge</a>
-        <a href="/galleri" class="inactive">Galleri</a>
-        <a href="/" class="inactive">Kontakt</a>
-    </nav>
-    <nav class="staffModal mobileNavigationModal">
-        <a class="active" href="/om-soranahus">Personale</a>
-    </nav>
-    <section class="socials">
-        <div onclick="window.open('https://www.facebook.com/soranahus/', '_blank');"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-        <div onclick="window.open('https://www.instagram.com/soranahus/', '_blank');"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-        <div onclick="window.open('https://www.linkedin.com/organization-guest/company/soranahus', '_blank');"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
-    </section>
-</dialog>
-<header>
-    <section class="logo">
-        <img src="inc/images/logo_tekst.svg" alt="Soranahus logo"/>
-    </section>
-    <nav>
-        <a href="/" class="inactive">Hjem</a>
-        <div class="dropdown">
-            <a href="/om-soranahus" class="inactive dropbtn">Om Soranahus</a>
-            <div class="dropdown-content">
-                <a href="/om-soranahus" class="inactive">Personale</a>
-            </div>
-        </div>
-        <a href="/for-sagsbehandlere" class="active">For sagsbehandlere</a>
-        <a href="/for-den-unge" class="inactive">For den unge</a>
-        <a href="/galleri" class="inactive">Galleri</a>
-        <a href="" class="inactive">Kontakt</a>
-    </nav>
-    <section class="socials">
-        <div onclick="window.open('https://www.facebook.com/soranahus/', '_blank');"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-        <div onclick="window.open('https://www.instagram.com/soranahus/', '_blank');"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-        <div onclick="window.open('https://www.linkedin.com/organization-guest/company/soranahus', '_blank');"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
-    </section>
-    <section id="mobileIcon" class="socials">
-        <div><i class="fa fa-bars" aria-hidden="true" onclick="toggleMobileNavigation()"></i></div>
-    </section>
-</header>
-
-<section class"target">
-    <article>
-        <h1>Målgruppe</h1>
-        <h2>Vi er godkendt til</h2>
-        <ul>
-            <li>Barnets Lov (BL) paragraf §43 (børne- og ungehjem)</li>
-            <li>BL paragraf §114 (ungestøtte)</li>
-            <li>Midlertidigt botilbud til voksne (§ 107)</li>
-        </ul>
-        <p>Opholdsstedet Soranahus er normeret til 11 unge mellem 12 og 18 år, med mulighed for forlængelse til det 25. år.
-            Målgruppen er drenge og piger med normal begavelse, som mangler visse psykiske og sociale kompetencer og derfor har en begrænset evne til at navigere i og forholde sig til samfundets normer og krav.
-            Det kan være unge, som gennem opvæksten har været udsat for traumatiske oplevelser som bl.a. omsorgssvigt, pludselige tab eller fysiske/psykiske overgreb.
-            Typisk har de savnet rollemodeller og oplevelsen af faste, trygge rammer, og de mangler tillid til egne evner og omverdenen som helhed.
-            Vi er eksperter i paragraf §52, §66, §76 og §107 i serviceloven, samt de gamle paragraffer (Almindeligt socialpædagogisk opholdssted (§ 66, stk. 1, nr. 5) efterværn (§76)), der er erstattet af BL.
-            Læs mere om <a href="# ">hvad er et opholdssted.</a></p>
-            <p>Vores dagtilbud et tilpasset unge med behov for tæt voksenkontakt, system og struktur i hverdagen.</p>
-            <a href="/gallery">Se fotos og videoer fra huset og vores ture her</a>
-    </article>
-</section>
-
-<section class"visitation">
-    <article>
-        <h1>Visitation/Samarbejde</h1>
-        <p>Alle <a href="contact">henvendelser</a> omkring visitation og aktive forløb rettes til leder Heidi Holst Seeger, Tlf: 57806780 / mobil: 51 815 816.
-            Ved visitation fremsendes alle sagsakter omkring den unge til Soranahus via sikker mail. Sagsakterne drøftes efterfølgende på et visitationsmøde mellem kommunen og Soranahus, hvor der tages stilling til kommunens anmodning om behandling, og hvorvidt Soranahus skønnes at være det rette tilbud til den konkrete unge. Det er væsentligt for vurderingen, at alle tilgængelige sagsakter er medsendt.
-            Beslutningen meddeles kommunen både skriftligt og telefonisk. Hvis det vurderes, at den unge matcher målgruppen, og at Soranahus er det rette tilbud, bliver der herefter indgået konkrete aftaler om indflytningsplan, samarbejdsmøder mv. I tilfælde af, at sagen afvises, gives der en kort begrundelse for dette, og Soranahus bistår i så fald gerne med at anbefale alternative foranstaltninger.
-            Vi vægter samarbejdet med anbringende myndighed højt. Vi vil som minimum afholde statusmøde hvert halve år, og vi opfordrer kommunerne til også at afholde møde derimellem.
-            Senest tre måneder efter indflytning inviterer vi til det første statusmøde. Forud for de planlagte statusmøder fremsender Soranahus en statusbeskrivelse over det forgangne forløb, der således kan bruges konkret af socialrådgiver/sagsbehandler også i forhold til mødets dagsorden.
-            Statusmødet er et samarbejde mellem børne- & ungehjem (før opholdssted), forældre, sagsbehandler og den unge, hvor behandlingsplan, handleplan og den unges fremtid revurderes. Her er nogle eksempler på mulige faste punkter på dagsordenen:</p>
-        <ul>
-            <li>Hvordan har den unge det?</li>
-            <li>Beskrivelse af forløbet siden sidst, samt den unges kompetencer og udviklingspunkter.</li>
-            <li>Hvordan går det med samarbejdet?</li>
-            <li>Hvordan går det med målene i behandlingsplanen og handleplanen?</li>
-            <li>Hvilke fokuspunkter er relevante i fremtiden?</li>
-            <li>Aftaler drøftes</li>
-            <li>Hvilke evt. ønsker har kommune/sagsbehandler til dialogen og kommunikationen med Soranahus?</li>
-        </ul>
-    </article>
-</section>
-
-<section class"methods">
-    <article>
-        <h1>Tilgang og metoder</h1>
-        <p>På Opholdsstedet Soranahus er den pædagogiske forståelsesramme neuropsykologi og neuropædagogik.
-            Vores pædagogiske hjørnesten og værdier er baseret på struktur, low arousal med en anerkendende og mentaliserende tilgang samt kognitiv adfærdsterapi. Hvor neuropsykologi og neuropædagogik er selve forståelsesrammen er anerkendende pædagogik, mentalisering samt kognitiv adfærdsterapi metoder/tilgange, hvorved vi skaber resultater.
-
-            Soranahus metoder og tilgange
-        </p>
-    </article>
-</section>
-
-<section class"familycoop">
-    <article>
-        <h1>Familiesamarbejde</h1>
-        <p>En del af vores primære opgave er at sikre den unges relationer til familie og andre betydningsfulde relationer til omverdenen udenfor Opholdsstedet Soranahus.
-            Soranahus prioriterer familiesamarbejde / forældre- og netværkssamarbejde højt, og har fokus på den unges netværk, skoleforløb, fritidsaktiviteter, misbrugsproblematik, sundhed, og adfærdsmønstre.
-            Metodens mål er at nedbringe den unges adfærds problemer, og opbygge en sundere og mere brugbar kontakt til familie og netværk.
-            Forældre/netværk er ikke bare vigtige samarbejds partnere, men også en betydelig del af den unges liv. Via dette samarbejde ser vi en mulighed for at danne ro omkring den unge også i forhold til hjemmebesøg. Uanset familiens ressourcer, er de berettede til at blive taget alvorligt, at blive hørt på og føle sig indflydelsesrige.
-            Hjemmebesøg, forældrebesøg og ferie aftales individuelt. Herudover tilbydes alle forældre en ugentlig telefon samtale med os, hvor de kan høre hvordan deres barn har haft det siden sidst, samt evt. andre emner vi kunne have brug for at få drøftet.
-            De andre sociale arenaer den unge færdes i såsom, fritidsaktiviteter, skole/uddannelse og fritidsjob indgår også som en væsentlig del af behandlingen. Sideløbende med den socialpædagogiske behandling samarbejdes der med den unges familie, dels omkring behandlingen og dels omkring praktiske forhold. Familie samarbejdet tilrettelægges ud fra familiens situation og muligheder set i forhold til den unges behov.</p>
-    </article>
-</section>
-
-<section class"relations">
-    <article>
-        <h1>Relationer</h1>
-            <p>For at relationen mellem ung og voksen skal fungere udviklingsstøttende for den unge, er det vigtigt, at den voksne tager det overordnede ansvar, men understøtter et ligeværdigt forhold.</p>
-        <h2>Det er en forudsætning for den unges trivsel og positive udvikling, at den voksne i relationen med den unge:</h2>
-        <ul>
-            <li>Er lydhør, nærværende og medlevende</li>
-            <li>Har positive forventninger til den unge</li>
-            <li>Har et anerkendende menneskesyn</li>
-            <li>Undgår skældud</li>
-            <li>Guider den unge og viser positive alternativer</li>
-            <li>Uddyber og italesætter fællesoplevelser</li>
-            <li>Kan justere sig i forhold til den unges udvikling</li>
-            <li>Giver mening til den unges oplevelse af omverden, ved at beskrive og forklare</li>
-        </ul>
-        <p>Det pædagogiske relationsarbejde kan kræve, at nogle af den ansattes personlige evner udvikles. Derfor arbejder vi med kommunikation og konflikthåndtering, og vi støtter hinanden i at udvikle både de unges og personalets personlige relationskompetencer.
-            Vi er bevidste om, at den unges relationer til venner er en vigtig del af den unges liv, når de ankommer til Soranahus. Derfor hjælper vi via vores behandlingsmetoder den unge til at skelne mellem sunde og usunde relationer. De unges relationer er afgørende for, at de tør påbegynde deres personlige udvikling og dermed kan tage bevidst afstand til usunde relationer.
-        </p>
-        <h3>Personalet</h3>
-        <p>Personalet på et børne- og ungehjem (tidligere kaldt opholdssted), skal være ansvarsbevidste og gode til at skabe relationer.
-            Som personale på børne- og ungehjemmet Soranahus, er vi både omsorgspersoner og rollemodeller for den unge. Vi tør stille op, åbne op og give af os selv i relationen, sådan at den unge kan spejle sig i vores adfærd og derved opnå nye kompetencer til at danne styrkende relationer til hovedsageligt andre unge og voksne.
-        </p>
-       </article>
-</section>
-
-<section class"health">
-    <h1>Kost og sundhed</h1>'
-    <p>Der er tydelig sammenhæng mellem de unges generelle trivsel og den kost de indtager. Derfor nøjes vi ikke blot med at tilbyde en sund kost, men vi viser også en omsorg i at “forlange”, at de unge spiser sundt.
-        I hverdagen har vi fokus på at tilberede og tilbyde de unge en næringsrig og varieret kost. De voksne er til stede og nærværende ved måltidet og gør deres for at skabe en god og hyggelig stemning og varte de unge op.
-        De unge deltager i planlægning og tilberedning af aftensmad. Dette gøres i tæt samarbejde med en voksen, som tilpasser krav og ressourcer i forhold til den enkelte unge. Formålet er, at den unge bliver i stand til at tage ansvar for fællesskabet og samtidig lærer om kost, madlavning, husholdning og økonomi. Desuden er det vores erfaring, at den fælles madlavning ofte er en god ramme for en samtale med den unge.
-        Vi opfordrer de unge til at gå eller løbe ture og deltage i fritidsklubber, og der er fælles ture i motionscenter eller svømmehal. For de unge, der er på Soranahus i weekenden er der ofte også fysiske aktiviteter. Desuden er der mulighed for at hoppe i trampolin og spille bold i haven.
-        Vi hjælper de unge til en mere aktiv hverdag ved at synliggøre mulighederne, f.eks. ved at foreslå en gåtur eller tage en cykeltur sammen.
-        Den personlige hygiejne er dels et udtryk for, dels et grundlag for den unges trivsel. Kontaktpædagogen er særlig opmærksom på den personlige hygiejne og sikrer, at den unges basisbeklædning er i orden, og at den unge kommer regelmæssigt til frisør.
-        Soranahus er røgfrit for både voksne og unge. Eventuelle rygere henvises til at ryge udenfor på bestemte anviste arealer
-    </p>
-</section>
-
-<section class"approach">
-    <article>
-        <h1>Faglig tilgang og metoder</h1>
-        <ul>
-            <li>Mentaliserende tilgang</li>
-            <li>Relationsorienteret tilgang</li>
-            <li>Anerkendende tilgang</li>
-            <li>Ressourceorienteret tilgang</li>
-            <li>Spejling</li>
-        </ul>
-    </article>
-</section>
-
-<section class"staffDevelopment">
-    <article>
-        <h1>Personaleudvikling</h1>
-        <p>Vi ønsker at være en lærende arbejdsplads, hvor den enkelte bidrager med både sin personlighed og sin faglighed, og hvor vi behandler hinanden med respekt og anerkendelse. Vores medarbejdere må aldrig acceptere status quo, men skal hele tiden stille spørgsmålstegn ved rutiner og traditioner og turde tage nye initiativer. Når ansatte erhverver sig nye kompetencer, både fagligt og socialt, kommer det både medarbejderen, opholdsstedet og de unge til gavn.
-            Derfor prioriterer vi personaleudvikling meget højt og bestræber os på hele tiden at inspirere til at tænke nyt og bedre. Personaleudvikling kan være alt fra at uddanne faglige kompetencer til at få medarbejdere til at fungere bedre sammen som et team.
-            Som del af Soranahus’ overordnede målsætning om at udvikle Danmarks bedste socialpædagogiske opholdssteder, arbejdes der primært kun med uddannet personale. Derudover fokuseres der på løbende uddannelse, individuel såvel som fælles. Soranahus er løbende i dialog med Socialpædagogernes Landsforbund (SL) om at tilbyde overenskomstlignende vilkår.
-            Soranahus har fokus på trivsel og vækst hos den enkelte medarbejder bl.a. via coaching, ekstern supervision (ved Torben Bloksgaard), tidlig konfliktløsning, udvikling af teamsamarbejde, personlig udvikling åbenhed og ærlighed samt løbende afholdelse af medarbejdersamtaler. Det er vores erfaring, at dette øger alles kompetencer i forhold til det daglige samarbejde samt styrker den gensidige tillid.
-        </p>
-    </article>
-</section>
-
-<section class"idDevelopment">
-    <h1>Identitetsudvikling</h1>
-    <p>
-        Med udgangspunkt i den enkelte unges udviklingsniveau og ressourcer udarbejder kontaktpersonen handlestrategier og behandlings- og udviklingsplaner, der giver den unge handle- og forandringsmuligheder, som bidrager til en positiv identitetsudvikling og større selvstændighed.
-        De unges liv foregår i en konstant forandring af identitet. Der er en tendens til, at sociale roller og rollernes tilknyttede normer og værdier i vidt omfang kun har midlertidig værdi. Det vil sige, at den unge kun forholder sig til et specifikt sæt af værdier, så længe de føles at have betydning for den identitet, som den unge oplever at have eller stræber imod.
-        Der er tale om en kontinuerlig identitetsproces, der fortsætter livet igennem, og på opholdsstedet Soranahus har vi fokus på at give næring til en positiv identitetsproces ved at levere tryghed og anerkendelse. I samtaler med den unge evaluerer og bevidstgør vi hendes/hans adfærd og problematikker med henblik på at styrke den enkelte unges sociale færdigheder og evne til at handle hensigtsmæssigt.
-    </p>
-</section>
-
-<section class"crossCoop">
-    <h1>Tværfagligt Samarbejde</h1>
-    <p>
-        Skole:
-        Vi samarbejder med både folke- og specialskoler i og omkring opholdsstedernes lokalområder.
-        Soranahus kan eksempelvis fremhæve Engvang – Den Grønne Skole som er et dagbehandlings- og specialundervisningstilbud hvor der undervises i fuld fagrække/FSA.
-        Erfaringen viser at Engvang – Den grønne skole bygger på skabelsen af attraktive fællesskaber med god plads og hensyn til den enkelte. I rammer præget af tryghed og rummelighed skabes grundlaget for gensidig forståelse, og modet til at deltage positivt i og tage ejerskab for et fælles tredje. Ud fra elevernes behov, tilpasses rammen individuelt, samtidig er skolens fokusmål at hjælpe og støtte eleverne i at indgå i sociale sammenhænge og fællesskaber, så de ikke oplever sig isolerede og i et omfang, som fungerer for den enkelte.
-        Engvang – Den grønne skole arbejder med social træning, fælles aktiviteter og klasseundervisning i det tempo, eleverne kan overkomme, og hele tiden med fokus på UVM’s faglige læringsmål. I praksis møder de eleven ud fra individuelle behov, og de tilpasser i samarbejde med den enkelte og Soranahus løbende indsatsen til gavn for den enkelte. Ved opstart, er der fokus på at finde fælles måder at lave aftaler på, der øger den enkeltes mulighed for udvikling og deltagelse i skolens hverdag. I takt med at der opbygges et fælles erfaringsgrundlag og forståelse for den enkeltes elevs potentiale for håndtering af egne udfordringer, arbejdes der på at få dette konkretiseret til brugbare strategier og værktøjer.
-        Psykolog og speciallæge:
-        Vi samarbejder med alle speciallæger samt distriktspsykiatrien i henholdsvis Slagelse, Næstved og Holbæk.
-        SSP/PPR:
-        Vi har et tæt samarbejde med både SSP og PPR i Slagelse og Holbæk kommuner. Skoletilbud efter individuelle behov og kompetencer aftales med anbringende myndighed og PPR. Der laves løbende vurderinger af den unges kompetencer og muligheder i forhold til skole, uddannelsestilbud, erhvervsarbejde, mm.
-        Supervision:
-        Vi vægter supervision højt, fordi det er vigtigt at udvikle sig og have indsigt i den enkeltes problematikker samt egen betydning i relationerne. Supervisionen kan vælges ud fra aktuelle behov og kan være personlig eller i gruppesammenhæng, både i forhold til det pædagogiske arbejde og samarbejde, enkelte unge etc. Vi har tilknyttet ekstern supervisor Torben Bloksgaard.
-    </p>
-</section>
-
-<section class"childLaw">
-    <article>
-    <h1>Barnets lov (BL §114) - ungestøtte</h1>
-    <h2>BL §114</h2>
-    <p>
-        Der laves en individuel vurdering i samarbejde med den unge, forældrene, opholdsstedet og sagsbehandleren.
-        Inden vi påbegynder ungestøtten, udfærdiges en samlet vurdering af den unge kompetencer i forhold til
-    </p>
-    <ul>
-        <li>Ansvarlighed/modenhed. At kunne tage vare på sig selv.</li>
-        <li>Tøjvask, hygiejne, indkøb, madlavning, rengøring, pleje af sig selv.</li>
-        <li>At lave et budget og holde det.</li>
-        <li>Sociale kompetencer, et netværk, at man kan fungere sammen med andre.</li>
-        <li>Uddannelse/skole/beskæftigelse</li>
-    </ul>
-    <p>
-        I samarbejde med den unge udarbejdes en plan, og aftaler i forhold, hvordan den unge kan klare sin dagligdag bliver skrevet ned. Sideløbende kan der i samarbejde med anbringelseskommunen findes en passende bolig til den unge, enten i lokalområdet eller i hjemkommunen, alt efter den unges ønsker og behov.
-        Der er også mulighed for at etablere en selvstændig lejlighed i nærheden af den unges opholdssted, såfremt den unges behov taler for det. I den forbindelse kan udarbejdes en støtteplan for, hvordan fremtiden for den unge skal tilrettelægges, og hvilke støtteforanstaltninger, der er nødvendige, f.eks.:
-    </p>
-    <ul>
-        <li>Andre professionelle, psykolog, rådgiver, sagsbehandler.</li>
-        <li>Uddannelse og arbejde, højskole, produktionsskole, læreplads, mm.</li>
-        <li>Fremtidig kontakt til opholdsstedet.</li>
-        <li>Støtte-/kontaktfunktion fra opholdsstedet.</li>
-        <li>Deltagelse på den årlige gensynsdag, hvor alle tidligere beboere og ansatte inviteres.</li>
-    </ul>
-    </article>
-</section>
-
-<!-- Complete overhaul -->
-<section class"pricesandSpots">
-    <article>
-        <p>Ledige pladser:</p>
-        <ul><
-            <li>11 godkendte pladser</li>
-            <li>Ingen ledige pladser per jan 2025</li>
-        </ul>
-
-        <p>Døgnanbringelse på børne-/ungehjem (12-18 år):</p>
-        <ul>
-            <li>Døgnrate: kr. 3.413,- (kan variere frag sag til sag)</li>
-            <li>Månedsrate: kr. 103.812,- (kan variere frag sag til sag)</li>
-            <li>Normeringstal: 1:2,25</li>
-        </ul>
-        <p>Ved døgnanbringelse er familiesupervision en integreret del af ydelsen</p>
-
-        <p>Familiesupervision</p>
-        <ul>
-            <li>Timerate: fra kr. 625,-</li>
-            <li>Gratis for forældre med børn på Soranahus</li>
-        </ul>
-
-        <p>Aflastning</p>
-        <p>Midlertidige ophold og aflastning i weekender, hverdage eller ferier. Vi tager også imod akut.
-        </p>
-        <ul>
-            <li>Pris efter aftale</li>
-        </ul>
-
-        <p>Samvær <br>
-            Soranahus tilbyder forskellige former for samværsopgaver, hos Soranahus eller i hjemmet. Vi står gerne for koordinering og planlægning. Ud fra den konkrete opgave tilknytter vi fagpersoner med den nødvendige ekspertise.
-        </p>
-        <ul>
-            <li>Pris efter aftale</li>
-        </ul>
-
-        <p>
-            Pengeinstitut <br>
-            Nykredit Bank <br>
-            Reg. nr.: 8117 <br>
-            Kontonr.: 1366801
-        </p>
-    </article>
-</section>
-
-<section id="contact">
-    <article class="form">
-        <form action="" method="POST">
-            <label for="name">Navn</label>
-            <input type="text" name="name" placeholder=""/>
-            <label for="email">E-mail</label>
-            <input type="email" name="email" placeholder=""/>
-            <label for="phone">Telefon</label>
-            <input type="tel" name="phone" placeholder=""/>
-            <label for="subject">Emne</label>
-            <input type="text" name="subject" placeholder=""/>
-            <label for="message">Besked</label>
-            <textarea name="message" placeholder=""></textarea>
-            <button type="submit">Send</button>
-            <div class="clear-fix"></div>
-        </form>
-    </article>
-    <article class="info">
-        <h3>Skriv til os vedr. vores børne- og ungehjem</h3>
-        <p>Har du spørgsmål eller lignende, så er du velkommen til at skrive til os via kontaktformularen eller ringe
-            til os på tlf: <a href="#">57 80 67 80</a></p>
-        <section>
-            <article class="card">
-                <section class="image">
-                    <img src="inc/images/personale/heidi.jpg" alt="card image"/>
-                </section>
-                <section class="text">
-                    <h3>Heidi Seeger</h3>
-                    <p>Leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">heidi@soranahus.dk</a></p>
-                </section>
+        <link rel="stylesheet" href="inc/styling/css/forcaseworkers/common.css">
+        <link rel="stylesheet" href="inc/styling/css/forcaseworkers/forcaseworkers.css">
+    </head>
+    <body>
+        <header></header>
+        <!--<dialog id="mobileModal">
+            <article class="header">
+                <i class=" mobileModalBackArrow fa fa-angle-left" aria-hidden="true" onclick="changeMobileModal('default')"></i>
+                <i class="fa fa-times" aria-hidden="true" onclick="toggleMobileNavigation()"></i>
             </article>
-            <article class="card">
-                <section class="image">
-                    <img src="inc/images/personale/max.jpg" alt="card image"/>
-                </section>
-                <section class="text">
-                    <h3>Max Seeger</h3>
-                    <p>Administrativ leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
+            <nav class="defaultModal mobileNavigationModal">
+                <a href="/" class="inactive">Hjem</a>
+                <p class="inactive" onclick="changeMobileModal('staff')">Om Soranahus</p>
+                <a href="/for-sagsbehandlere" class="active">For sagsbehandlere</a>
+                <a href="/for-den-unge" class="inactive">For den unge</a>
+                <a href="/galleri" class="inactive">Galleri</a>
+                <a href="/" class="inactive">Kontakt</a>
+            </nav>
+            <nav class="staffModal mobileNavigationModal">
+                <a class="active" href="/om-soranahus">Personale</a>
+            </nav>
+            <section class="socials">
+                <div onclick="window.open('https://www.facebook.com/soranahus/', '_blank');"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                <div onclick="window.open('https://www.instagram.com/soranahus/', '_blank');"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                <div onclick="window.open('https://www.linkedin.com/organization-guest/company/soranahus', '_blank');"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+            </section>
+        </dialog>
+        <header>
+            <section class="logo">
+                <img src="inc/images/logo_tekst.svg" alt="Soranahus logo"/>
+            </section>
+            <nav>
+                <a href="/" class="inactive">Hjem</a>
+                <div class="dropdown">
+                    <a href="/om-soranahus" class="inactive dropbtn">Om Soranahus</a>
+                    <div class="dropdown-content">
+                        <a href="/om-soranahus" class="inactive">Personale</a>
+                    </div>
+                </div>
+                <a href="/for-sagsbehandlere" class="active">For sagsbehandlere</a>
+                <a href="/for-den-unge" class="inactive">For den unge</a>
+                <a href="/galleri" class="inactive">Galleri</a>
+                <a href="" class="inactive">Kontakt</a>
+            </nav>
+            <section class="socials">
+                <div onclick="window.open('https://www.facebook.com/soranahus/', '_blank');"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                <div onclick="window.open('https://www.instagram.com/soranahus/', '_blank');"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                <div onclick="window.open('https://www.linkedin.com/organization-guest/company/soranahus', '_blank');"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+            </section>
+            <section id="mobileIcon" class="socials">
+                <div><i class="fa fa-bars" aria-hidden="true" onclick="toggleMobileNavigation()"></i></div>
+            </section>
+        </header>-->
+
+        <section class="target" id="target">
+            <article>
+                <h1>Målgruppe</h1>
+                <h2>Vi er godkendt til</h2>
+                <ul>
+                    <li>Barnets Lov (BL) paragraf §43 (børne- og ungehjem)</li>
+                    <li>BL paragraf §114 (ungestøtte)</li>
+                    <li>Midlertidigt botilbud til voksne (§ 107)</li>
+                </ul>
+                <p>Opholdsstedet Soranahus er normeret til 11 unge mellem 12 og 18 år, med mulighed for forlængelse til det 25. år.
+                    Målgruppen er drenge og piger med normal begavelse, som mangler visse psykiske og sociale kompetencer og derfor har en begrænset evne til at navigere i og forholde sig til samfundets normer og krav.
+                    Det kan være unge, som gennem opvæksten har været udsat for traumatiske oplevelser som bl.a. omsorgssvigt, pludselige tab eller fysiske/psykiske overgreb.
+                    Typisk har de savnet rollemodeller og oplevelsen af faste, trygge rammer, og de mangler tillid til egne evner og omverdenen som helhed.
+                    Vi er eksperter i paragraf §52, §66, §76 og §107 i serviceloven, samt de gamle paragraffer (Almindeligt socialpædagogisk opholdssted (§ 66, stk. 1, nr. 5) efterværn (§76)), der er erstattet af BL.
+                    Læs mere om <a href="# ">hvad er et opholdssted.</a></p>
+                    <p>Vores dagtilbud et tilpasset unge med behov for tæt voksenkontakt, system og struktur i hverdagen.</p>
+                    <a href="/gallery">Se fotos og videoer fra huset og vores ture her</a>
+            </article>
+        </section>
+
+        <section class="visitation" id="visitation">
+            <article>
+                <h1>Visitation/Samarbejde</h1>
+                <p>Alle <a href="contact">henvendelser</a> omkring visitation og aktive forløb rettes til leder Heidi Holst Seeger, Tlf: 57806780 / mobil: 51 815 816.
+                    Ved visitation fremsendes alle sagsakter omkring den unge til Soranahus via sikker mail. Sagsakterne drøftes efterfølgende på et visitationsmøde mellem kommunen og Soranahus, hvor der tages stilling til kommunens anmodning om behandling, og hvorvidt Soranahus skønnes at være det rette tilbud til den konkrete unge. Det er væsentligt for vurderingen, at alle tilgængelige sagsakter er medsendt.
+                    Beslutningen meddeles kommunen både skriftligt og telefonisk. Hvis det vurderes, at den unge matcher målgruppen, og at Soranahus er det rette tilbud, bliver der herefter indgået konkrete aftaler om indflytningsplan, samarbejdsmøder mv. I tilfælde af, at sagen afvises, gives der en kort begrundelse for dette, og Soranahus bistår i så fald gerne med at anbefale alternative foranstaltninger.
+                    Vi vægter samarbejdet med anbringende myndighed højt. Vi vil som minimum afholde statusmøde hvert halve år, og vi opfordrer kommunerne til også at afholde møde derimellem.
+                    Senest tre måneder efter indflytning inviterer vi til det første statusmøde. Forud for de planlagte statusmøder fremsender Soranahus en statusbeskrivelse over det forgangne forløb, der således kan bruges konkret af socialrådgiver/sagsbehandler også i forhold til mødets dagsorden.
+                    Statusmødet er et samarbejde mellem børne- & ungehjem (før opholdssted), forældre, sagsbehandler og den unge, hvor behandlingsplan, handleplan og den unges fremtid revurderes. Her er nogle eksempler på mulige faste punkter på dagsordenen:</p>
+                <ul>
+                    <li>Hvordan har den unge det?</li>
+                    <li>Beskrivelse af forløbet siden sidst, samt den unges kompetencer og udviklingspunkter.</li>
+                    <li>Hvordan går det med samarbejdet?</li>
+                    <li>Hvordan går det med målene i behandlingsplanen og handleplanen?</li>
+                    <li>Hvilke fokuspunkter er relevante i fremtiden?</li>
+                    <li>Aftaler drøftes</li>
+                    <li>Hvilke evt. ønsker har kommune/sagsbehandler til dialogen og kommunikationen med Soranahus?</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="methods" id="methods">
+            <article>
+                <h1>Tilgang og metoder</h1>
+                <p>På Opholdsstedet Soranahus er den pædagogiske forståelsesramme neuropsykologi og neuropædagogik.
+                    Vores pædagogiske hjørnesten og værdier er baseret på struktur, low arousal med en anerkendende og mentaliserende tilgang samt kognitiv adfærdsterapi. Hvor neuropsykologi og neuropædagogik er selve forståelsesrammen er anerkendende pædagogik, mentalisering samt kognitiv adfærdsterapi metoder/tilgange, hvorved vi skaber resultater.
+
+                    Soranahus metoder og tilgange
+                </p>
+            </article>
+        </section>
+
+        <section class="familycoop" id="familycoop">
+            <article>
+                <h1>Familiesamarbejde</h1>
+                <p>En del af vores primære opgave er at sikre den unges relationer til familie og andre betydningsfulde relationer til omverdenen udenfor Opholdsstedet Soranahus.
+                    Soranahus prioriterer familiesamarbejde / forældre- og netværkssamarbejde højt, og har fokus på den unges netværk, skoleforløb, fritidsaktiviteter, misbrugsproblematik, sundhed, og adfærdsmønstre.
+                    Metodens mål er at nedbringe den unges adfærds problemer, og opbygge en sundere og mere brugbar kontakt til familie og netværk.
+                    Forældre/netværk er ikke bare vigtige samarbejds partnere, men også en betydelig del af den unges liv. Via dette samarbejde ser vi en mulighed for at danne ro omkring den unge også i forhold til hjemmebesøg. Uanset familiens ressourcer, er de berettede til at blive taget alvorligt, at blive hørt på og føle sig indflydelsesrige.
+                    Hjemmebesøg, forældrebesøg og ferie aftales individuelt. Herudover tilbydes alle forældre en ugentlig telefon samtale med os, hvor de kan høre hvordan deres barn har haft det siden sidst, samt evt. andre emner vi kunne have brug for at få drøftet.
+                    De andre sociale arenaer den unge færdes i såsom, fritidsaktiviteter, skole/uddannelse og fritidsjob indgår også som en væsentlig del af behandlingen. Sideløbende med den socialpædagogiske behandling samarbejdes der med den unges familie, dels omkring behandlingen og dels omkring praktiske forhold. Familie samarbejdet tilrettelægges ud fra familiens situation og muligheder set i forhold til den unges behov.</p>
+            </article>
+        </section>
+
+        <section class="relations" id="relations">
+            <article>
+                <h1>Relationer</h1>
+                    <p>For at relationen mellem ung og voksen skal fungere udviklingsstøttende for den unge, er det vigtigt, at den voksne tager det overordnede ansvar, men understøtter et ligeværdigt forhold.</p>
+                <h2>Det er en forudsætning for den unges trivsel og positive udvikling, at den voksne i relationen med den unge:</h2>
+                <ul>
+                    <li>Er lydhør, nærværende og medlevende</li>
+                    <li>Har positive forventninger til den unge</li>
+                    <li>Har et anerkendende menneskesyn</li>
+                    <li>Undgår skældud</li>
+                    <li>Guider den unge og viser positive alternativer</li>
+                    <li>Uddyber og italesætter fællesoplevelser</li>
+                    <li>Kan justere sig i forhold til den unges udvikling</li>
+                    <li>Giver mening til den unges oplevelse af omverden, ved at beskrive og forklare</li>
+                </ul>
+                <p>Det pædagogiske relationsarbejde kan kræve, at nogle af den ansattes personlige evner udvikles. Derfor arbejder vi med kommunikation og konflikthåndtering, og vi støtter hinanden i at udvikle både de unges og personalets personlige relationskompetencer.
+                    Vi er bevidste om, at den unges relationer til venner er en vigtig del af den unges liv, når de ankommer til Soranahus. Derfor hjælper vi via vores behandlingsmetoder den unge til at skelne mellem sunde og usunde relationer. De unges relationer er afgørende for, at de tør påbegynde deres personlige udvikling og dermed kan tage bevidst afstand til usunde relationer.
+                </p>
+                <h3>Personalet</h3>
+                <p>Personalet på et børne- og ungehjem (tidligere kaldt opholdssted), skal være ansvarsbevidste og gode til at skabe relationer.
+                    Som personale på børne- og ungehjemmet Soranahus, er vi både omsorgspersoner og rollemodeller for den unge. Vi tør stille op, åbne op og give af os selv i relationen, sådan at den unge kan spejle sig i vores adfærd og derved opnå nye kompetencer til at danne styrkende relationer til hovedsageligt andre unge og voksne.
+                </p>
+               </article>
+        </section>
+
+        <section class="health" id="health">
+            <article>
+                <h1>Kost og sundhed</h1>'
+                <p>Der er tydelig sammenhæng mellem de unges generelle trivsel og den kost de indtager. Derfor nøjes vi ikke blot med at tilbyde en sund kost, men vi viser også en omsorg i at “forlange”, at de unge spiser sundt.
+                    I hverdagen har vi fokus på at tilberede og tilbyde de unge en næringsrig og varieret kost. De voksne er til stede og nærværende ved måltidet og gør deres for at skabe en god og hyggelig stemning og varte de unge op.
+                    De unge deltager i planlægning og tilberedning af aftensmad. Dette gøres i tæt samarbejde med en voksen, som tilpasser krav og ressourcer i forhold til den enkelte unge. Formålet er, at den unge bliver i stand til at tage ansvar for fællesskabet og samtidig lærer om kost, madlavning, husholdning og økonomi. Desuden er det vores erfaring, at den fælles madlavning ofte er en god ramme for en samtale med den unge.
+                    Vi opfordrer de unge til at gå eller løbe ture og deltage i fritidsklubber, og der er fælles ture i motionscenter eller svømmehal. For de unge, der er på Soranahus i weekenden er der ofte også fysiske aktiviteter. Desuden er der mulighed for at hoppe i trampolin og spille bold i haven.
+                    Vi hjælper de unge til en mere aktiv hverdag ved at synliggøre mulighederne, f.eks. ved at foreslå en gåtur eller tage en cykeltur sammen.
+                    Den personlige hygiejne er dels et udtryk for, dels et grundlag for den unges trivsel. Kontaktpædagogen er særlig opmærksom på den personlige hygiejne og sikrer, at den unges basisbeklædning er i orden, og at den unge kommer regelmæssigt til frisør.
+                    Soranahus er røgfrit for både voksne og unge. Eventuelle rygere henvises til at ryge udenfor på bestemte anviste arealer
+                </p>
+            </article>
+        </section>
+
+        <section class="approach" id="approach">
+            <article>
+                <h1>Faglig tilgang og metoder</h1>
+                <ul>
+                    <li>Mentaliserende tilgang</li>
+                    <li>Relationsorienteret tilgang</li>
+                    <li>Anerkendende tilgang</li>
+                    <li>Ressourceorienteret tilgang</li>
+                    <li>Spejling</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="staffDevelopment" id="staffDevelopment">
+            <article>
+                <h1>Personaleudvikling</h1>
+                <p>Vi ønsker at være en lærende arbejdsplads, hvor den enkelte bidrager med både sin personlighed og sin faglighed, og hvor vi behandler hinanden med respekt og anerkendelse. Vores medarbejdere må aldrig acceptere status quo, men skal hele tiden stille spørgsmålstegn ved rutiner og traditioner og turde tage nye initiativer. Når ansatte erhverver sig nye kompetencer, både fagligt og socialt, kommer det både medarbejderen, opholdsstedet og de unge til gavn.
+                    Derfor prioriterer vi personaleudvikling meget højt og bestræber os på hele tiden at inspirere til at tænke nyt og bedre. Personaleudvikling kan være alt fra at uddanne faglige kompetencer til at få medarbejdere til at fungere bedre sammen som et team.
+                    Som del af Soranahus’ overordnede målsætning om at udvikle Danmarks bedste socialpædagogiske opholdssteder, arbejdes der primært kun med uddannet personale. Derudover fokuseres der på løbende uddannelse, individuel såvel som fælles. Soranahus er løbende i dialog med Socialpædagogernes Landsforbund (SL) om at tilbyde overenskomstlignende vilkår.
+                    Soranahus har fokus på trivsel og vækst hos den enkelte medarbejder bl.a. via coaching, ekstern supervision (ved Torben Bloksgaard), tidlig konfliktløsning, udvikling af teamsamarbejde, personlig udvikling åbenhed og ærlighed samt løbende afholdelse af medarbejdersamtaler. Det er vores erfaring, at dette øger alles kompetencer i forhold til det daglige samarbejde samt styrker den gensidige tillid.
+                </p>
+            </article>
+        </section>
+
+        <section class="idDevelopment" id="idDevelopment">
+            <article>
+                <h1>Identitetsudvikling</h1>
+                <p>
+                    Med udgangspunkt i den enkelte unges udviklingsniveau og ressourcer udarbejder kontaktpersonen handlestrategier og behandlings- og udviklingsplaner, der giver den unge handle- og forandringsmuligheder, som bidrager til en positiv identitetsudvikling og større selvstændighed.
+                    De unges liv foregår i en konstant forandring af identitet. Der er en tendens til, at sociale roller og rollernes tilknyttede normer og værdier i vidt omfang kun har midlertidig værdi. Det vil sige, at den unge kun forholder sig til et specifikt sæt af værdier, så længe de føles at have betydning for den identitet, som den unge oplever at have eller stræber imod.
+                    Der er tale om en kontinuerlig identitetsproces, der fortsætter livet igennem, og på opholdsstedet Soranahus har vi fokus på at give næring til en positiv identitetsproces ved at levere tryghed og anerkendelse. I samtaler med den unge evaluerer og bevidstgør vi hendes/hans adfærd og problematikker med henblik på at styrke den enkelte unges sociale færdigheder og evne til at handle hensigtsmæssigt.
+                </p>
+            </article>
+        </section>
+
+        <section class="crossCoop" id="crossCoop">
+            <article>
+                <h1>Tværfagligt Samarbejde</h1>
+                <p>
+                    Skole:
+                    Vi samarbejder med både folke- og specialskoler i og omkring opholdsstedernes lokalområder.
+                    Soranahus kan eksempelvis fremhæve Engvang – Den Grønne Skole som er et dagbehandlings- og specialundervisningstilbud hvor der undervises i fuld fagrække/FSA.
+                    Erfaringen viser at Engvang – Den grønne skole bygger på skabelsen af attraktive fællesskaber med god plads og hensyn til den enkelte. I rammer præget af tryghed og rummelighed skabes grundlaget for gensidig forståelse, og modet til at deltage positivt i og tage ejerskab for et fælles tredje. Ud fra elevernes behov, tilpasses rammen individuelt, samtidig er skolens fokusmål at hjælpe og støtte eleverne i at indgå i sociale sammenhænge og fællesskaber, så de ikke oplever sig isolerede og i et omfang, som fungerer for den enkelte.
+                    Engvang – Den grønne skole arbejder med social træning, fælles aktiviteter og klasseundervisning i det tempo, eleverne kan overkomme, og hele tiden med fokus på UVM’s faglige læringsmål. I praksis møder de eleven ud fra individuelle behov, og de tilpasser i samarbejde med den enkelte og Soranahus løbende indsatsen til gavn for den enkelte. Ved opstart, er der fokus på at finde fælles måder at lave aftaler på, der øger den enkeltes mulighed for udvikling og deltagelse i skolens hverdag. I takt med at der opbygges et fælles erfaringsgrundlag og forståelse for den enkeltes elevs potentiale for håndtering af egne udfordringer, arbejdes der på at få dette konkretiseret til brugbare strategier og værktøjer.
+                    Psykolog og speciallæge:
+                    Vi samarbejder med alle speciallæger samt distriktspsykiatrien i henholdsvis Slagelse, Næstved og Holbæk.
+                    SSP/PPR:
+                    Vi har et tæt samarbejde med både SSP og PPR i Slagelse og Holbæk kommuner. Skoletilbud efter individuelle behov og kompetencer aftales med anbringende myndighed og PPR. Der laves løbende vurderinger af den unges kompetencer og muligheder i forhold til skole, uddannelsestilbud, erhvervsarbejde, mm.
+                    Supervision:
+                    Vi vægter supervision højt, fordi det er vigtigt at udvikle sig og have indsigt i den enkeltes problematikker samt egen betydning i relationerne. Supervisionen kan vælges ud fra aktuelle behov og kan være personlig eller i gruppesammenhæng, både i forhold til det pædagogiske arbejde og samarbejde, enkelte unge etc. Vi har tilknyttet ekstern supervisor Torben Bloksgaard.
+                </p>
+            </article>
+        </section>
+
+        <section class="childLaw" id="childLaw">
+            <article>
+                <h1>Barnets lov (BL §114) - ungestøtte</h1>
+                <h2>BL §114</h2>
+                <p>
+                    Der laves en individuel vurdering i samarbejde med den unge, forældrene, opholdsstedet og sagsbehandleren.
+                    Inden vi påbegynder ungestøtten, udfærdiges en samlet vurdering af den unge kompetencer i forhold til
+                </p>
+                <ul>
+                    <li>Ansvarlighed/modenhed. At kunne tage vare på sig selv.</li>
+                    <li>Tøjvask, hygiejne, indkøb, madlavning, rengøring, pleje af sig selv.</li>
+                    <li>At lave et budget og holde det.</li>
+                    <li>Sociale kompetencer, et netværk, at man kan fungere sammen med andre.</li>
+                    <li>Uddannelse/skole/beskæftigelse</li>
+                </ul>
+                <p>
+                    I samarbejde med den unge udarbejdes en plan, og aftaler i forhold, hvordan den unge kan klare sin dagligdag bliver skrevet ned. Sideløbende kan der i samarbejde med anbringelseskommunen findes en passende bolig til den unge, enten i lokalområdet eller i hjemkommunen, alt efter den unges ønsker og behov.
+                    Der er også mulighed for at etablere en selvstændig lejlighed i nærheden af den unges opholdssted, såfremt den unges behov taler for det. I den forbindelse kan udarbejdes en støtteplan for, hvordan fremtiden for den unge skal tilrettelægges, og hvilke støtteforanstaltninger, der er nødvendige, f.eks.:
+                </p>
+                <ul>
+                    <li>Andre professionelle, psykolog, rådgiver, sagsbehandler.</li>
+                    <li>Uddannelse og arbejde, højskole, produktionsskole, læreplads, mm.</li>
+                    <li>Fremtidig kontakt til opholdsstedet.</li>
+                    <li>Støtte-/kontaktfunktion fra opholdsstedet.</li>
+                    <li>Deltagelse på den årlige gensynsdag, hvor alle tidligere beboere og ansatte inviteres.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Complete overhaul -->
+        <section class="pricesandSpots" id="pricesandSpots">
+            <article>
+                <p>Ledige pladser:</p>
+                <ul>
+                    <li>11 godkendte pladser</li>
+                    <li>Ingen ledige pladser per jan 2025</li>
+                </ul>
+
+                <p>Døgnanbringelse på børne-/ungehjem (12-18 år):</p>
+                <ul>
+                    <li>Døgnrate: kr. 3.413,- (kan variere frag sag til sag)</li>
+                    <li>Månedsrate: kr. 103.812,- (kan variere frag sag til sag)</li>
+                    <li>Normeringstal: 1:2,25</li>
+                </ul>
+                <p>Ved døgnanbringelse er familiesupervision en integreret del af ydelsen</p>
+
+                <p>Familiesupervision</p>
+                <ul>
+                    <li>Timerate: fra kr. 625,-</li>
+                    <li>Gratis for forældre med børn på Soranahus</li>
+                </ul>
+
+                <p>Aflastning</p>
+                <p>Midlertidige ophold og aflastning i weekender, hverdage eller ferier. Vi tager også imod akut.
+                </p>
+                <ul>
+                    <li>Pris efter aftale</li>
+                </ul>
+
+                <p>Samvær <br>
+                    Soranahus tilbyder forskellige former for samværsopgaver, hos Soranahus eller i hjemmet. Vi står gerne for koordinering og planlægning. Ud fra den konkrete opgave tilknytter vi fagpersoner med den nødvendige ekspertise.
+                </p>
+                <ul>
+                    <li>Pris efter aftale</li>
+                </ul>
+
+                <p>
+                    Pengeinstitut <br>
+                    Nykredit Bank <br>
+                    Reg. nr.: 8117 <br>
+                    Kontonr.: 1366801
+                </p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <article class="form">
+                <form action="" method="POST">
+                    <label for="name">Navn</label>
+                    <input type="text" name="name" placeholder=""/>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder=""/>
+                    <label for="phone">Telefon</label>
+                    <input type="tel" name="phone" placeholder=""/>
+                    <label for="subject">Emne</label>
+                    <input type="text" name="subject" placeholder=""/>
+                    <label for="message">Besked</label>
+                    <textarea name="message" placeholder=""></textarea>
+                    <button type="submit">Send</button>
+                    <div class="clear-fix"></div>
+                </form>
+            </article>
+            <article class="info">
+                <h3>Skriv til os vedr. vores børne- og ungehjem</h3>
+                <p>Har du spørgsmål eller lignende, så er du velkommen til at skrive til os via kontaktformularen eller ringe
+                    til os på tlf: <a href="#">57 80 67 80</a></p>
+                <section>
+                    <article class="card">
+                        <section class="image">
+                            <img src="inc/images/personale/heidi.jpg" alt="card image"/>
+                        </section>
+                        <section class="text">
+                            <h3>Heidi Seeger</h3>
+                            <p>Leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">heidi@soranahus.dk</a></p>
+                        </section>
+                    </article>
+                    <article class="card">
+                        <section class="image">
+                            <img src="inc/images/personale/max.jpg" alt="card image"/>
+                        </section>
+                        <section class="text">
+                            <h3>Max Seeger</h3>
+                            <p>Administrativ leder<br><a href="#">+45 57 80 67 80</a><br><a href="#">max@soranahus.dk</a></p>
+                        </section>
+                    </article>
                 </section>
             </article>
         </section>
-    </article>
-</section>
 
-<footer>
-    <article>
-        <h3>Fonden Soranahus<br><br></h3>
-        <p><a href="#">Døgnbehandling, BL §43<br></a>
-            <a href="#">Aflastning<br></a>
-            <a href="#">Familiesupervision<br></a>
-            <a href="#">BL §114 Ungestøtte</a>
-        </p>
-    </article>
-    <article>
-        <h3>Soranahus i Undløse<br><br></h3>
-        <p>Hovedgaden 16<br>
-            4340 Tølløse<br>
-            Tlf.: <a href="#">+45 57 80 67 80</a><br>
-            Email: <a href="#">mail@soranahus.dk</a>
-        </p>
-    </article>
-    <article>
-        <h3>Lovgivning<br><br></h3>
-        <p><a href="#">GDPR<br></a>
-            <a href="#">Privatliv og databeskyttelse<br></a>
-            <a href="#">G-6 Facebook forbehold</a>
-        </p>
-    </article>
-</footer>
-<script src="inc/styling/js/common/common.js"></script>
-<script src="inc/styling/js/common/header.js"></script>
-<script src="inc/styling/js/staff/staff.js"></script>
-</body>
+        <footer>
+            <article>
+                <h3>Fonden Soranahus<br><br></h3>
+                <p><a href="#">Døgnbehandling, BL §43<br></a>
+                    <a href="#">Aflastning<br></a>
+                    <a href="#">Familiesupervision<br></a>
+                    <a href="#">BL §114 Ungestøtte</a>
+                </p>
+            </article>
+            <article>
+                <h3>Soranahus i Undløse<br><br></h3>
+                <p>Hovedgaden 16<br>
+                    4340 Tølløse<br>
+                    Tlf.: <a href="#">+45 57 80 67 80</a><br>
+                    Email: <a href="#">mail@soranahus.dk</a>
+                </p>
+            </article>
+            <article>
+                <h3>Lovgivning<br><br></h3>
+                <p><a href="#">GDPR<br></a>
+                    <a href="#">Privatliv og databeskyttelse<br></a>
+                    <a href="#">G-6 Facebook forbehold</a>
+                </p>
+            </article>
+        </footer>
+        <script src="inc/styling/js/common/common.js"></script>
+        <script src="inc/styling/js/common/header.js"></script>
+        <script src="inc/styling/js/forcaseworkers/forcaseworkers.js"></script>
+    </body>
 </html>

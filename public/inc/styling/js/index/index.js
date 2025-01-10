@@ -1,3 +1,10 @@
+// Add active header class
+document.addEventListener("DOMContentLoaded", () => {
+    let e = document.getElementsByClassName("headerHome");
+    for(let i = 0; i < e.length; i++) e[i].classList.add("active");
+});
+
+// Hero typewriter effect
 let elem = document.querySelector("#hero .paragraph");
 let writeSpeed = 50;
 let eraseSpeed = 25;

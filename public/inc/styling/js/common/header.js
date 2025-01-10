@@ -31,6 +31,10 @@ let changeMobileModal = (menu) => {
             document.querySelector('.staffModal').style.display = "grid";
             document.querySelector('.mobileModalBackArrow').style.visibility = "visible";
             break;
+        case "forcaseworkers":
+            document.querySelector('.forCaseWorkersModal').style.display = "grid";
+            document.querySelector('.mobileModalBackArrow').style.visibility = "visible";
+            break;
         default:
             document.querySelector('.mobileModalBackArrow').style.visibility = "hidden";
             document.querySelector('.defaultModal').style.display = "grid";

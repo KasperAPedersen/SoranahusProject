@@ -1,0 +1,39 @@
+.target article {
+
+    padding-top: var(--headerHeight);
+}
+
+.target,
+.visitation,
+.methods,
+.familycoop,
+.relations,
+.health,
+.approach,
+.staffDevelopment,
+.idDevelopment,
+.crossCoop,
+.childLaw,
+.pricesandSpots{
+    display: grid;
+    justify-items: center;
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+    padding: 25px 0;
+}
+
+.target article,
+.visitation article,
+.methods article,
+.familycoop article,
+.relations article,
+.health article,
+.approach article,
+.staffDevelopment article,
+.idDevelopment article,
+.crossCoop article,
+.childLaw article,
+.pricesandSpots article {
+    width: 80%;
+    text-align: center;
+}

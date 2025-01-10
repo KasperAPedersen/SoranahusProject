@@ -78,3 +78,7 @@
 *::selection {
     color: var(--primaryColor);
 }
+
+html {
+    scroll-behavior: smooth !important;
+}
