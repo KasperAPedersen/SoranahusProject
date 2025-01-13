@@ -3,6 +3,11 @@ document.addEventListener("DOMContentLoaded", () => {
     UpdateActiveNavTab('headerHome');
 });
 
+//
+let changeUrl = (url) => {
+    location.assign(url);
+}
+
 // Hero typewriter effect
 let elem = document.querySelector("#hero .paragraph");
 let writeSpeed = 50;

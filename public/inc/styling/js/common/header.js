@@ -46,7 +46,3 @@ let changeMobileModal = (menu) => {
             break;
     }
 }
-
-let closeMobileModal = () => {
-    toggleMobileNavigation();
-}
