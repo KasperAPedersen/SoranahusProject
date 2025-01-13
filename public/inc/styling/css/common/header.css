@@ -275,7 +275,7 @@ header .socials div:hover {
 
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 12px 0;
     text-decoration: none;
     display: block;
     opacity: 0.5;

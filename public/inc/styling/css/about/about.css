@@ -1,10 +1,9 @@
 .about {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../../../images/hero.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    justify-items: center;
+    align-content: center;
+    padding: 50px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -19,21 +18,50 @@
 .about h1 {
     font-size: 2rem;
     padding: 25px 0;
-    color: #fff;
+    color: var(--primaryColor);
 }
 
 .about p,
 .about li {
     line-height: 1.5rem;
-    color: #fff;
+    color: var(--primaryColor);
 }
 
 .about li {
     list-style: none;
 }
 
+.welcome {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../../../images/tmp2.webp");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome article {
+    color: var(--secondaryColor);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add drop shadow */
+}
+
+.welcome h3 {
+    font-size: 3.75rem;
+    line-height: 1.5;
+    padding-left: 50px;
+}
+
+.welcome h2 {
+    font-size: 6rem;
+    line-height: 0;
+}
+
 .frameworks {
-    background-color: var(--secondaryColor);
+    background-color: var(--tertiaryColor);
     color: var(--primaryColor);
     justify-items: center;
     align-content: center;
@@ -70,7 +98,7 @@
 
 .staff {
     min-height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../../../images/hero.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../../../images/tmp3.webp");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,14 +106,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.staff:first-of-type {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../../../images/gallery_bg.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .staff article {
@@ -213,6 +233,10 @@
     .jobs article {
         width: 80%;
     }
+
+    .welcome article {
+        width: 60vw;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -245,5 +269,45 @@
 
     .frameworks {
         padding: 25px;
+    }
+
+    .welcome article {
+        width: 60vw;
+    }
+
+    .welcome h2 {
+        font-size: 4.5rem;
+    }
+
+    .welcome h3 {
+        font-size: 2.5rem;
+    }
+}
+
+
+
+@media screen and (max-width: 475px) {
+    .welcome article {
+        width: 60vw;
+    }
+    .welcome h2 {
+        font-size: 3.5rem;
+    }
+
+    .welcome h3 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .welcome article {
+        width: 80vw;
+    }
+    .welcome h2 {
+        font-size: 3rem;
+    }
+
+    .welcome h3 {
+        font-size: 1.7rem;
     }
 }

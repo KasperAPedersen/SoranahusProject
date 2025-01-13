@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <a class="inactive" href="/om-soranahus#about" onclick="toggleMobileNavigation()">Om Soranahus</a>
                 <a class="inactive" href="/om-soranahus#frameworks" onclick="toggleMobileNavigation()">Fysiske rammer</a>
                 <a class="inactive" href="/om-soranahus#staff" onclick="toggleMobileNavigation()">Personale</a>
+                <a class="inactive" href="/om-soranahus#students" onclick="toggleMobileNavigation()">For studerende</a>
                 <a class="inactive" href="/om-soranahus#jobs" onclick="toggleMobileNavigation()">Ledige stillinger</a>
             </nav>
             <nav class="forCaseWorkersModal mobileNavigationModal">
@@ -70,6 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
                          <a href="/om-soranahus#about">Om Soranahus</a>
                          <a href="/om-soranahus#frameworks">Fysiske rammer</a>
                          <a href="/om-soranahus#staff">Personale</a>
+                         <a href="/om-soranahus#students">For studerende</a>
                          <a href="/om-soranahus#jobs">Ledige stillinger</a>
                      </div>
                  </div>
@@ -91,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
                      </div>
                  </div>
                 <div class="dropdown">
-                     <a href="/for-den-unge" class="inactive headerTheYoung">For den unge</a>
+                     <a href="/for-den-unge" class="inactive headerYoung">For den unge</a>
                      <div class="dropdown-content">
                         <a href="/for-den-unge#welcome">Velkommen</a>
                         <a href="/for-den-unge#daily">Dagligdagen</a>
