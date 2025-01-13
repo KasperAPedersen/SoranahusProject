@@ -70,7 +70,7 @@
 
 .staff {
     min-height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../../../images/staff_bg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../../../images/hero.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -233,5 +233,17 @@
     .students article,
     .jobs article {
         width: calc(100% - 30px);
+    }
+}
+
+@media only screen and (max-width: 663px) {
+    .about {
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    .frameworks {
+        padding: 25px;
     }
 }
