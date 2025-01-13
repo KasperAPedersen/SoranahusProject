@@ -243,7 +243,8 @@ header .socials div:hover {
 }
 
 #mobileModal .staffModal,
-#mobileModal .forCaseWorkersModal {
+#mobileModal .forCaseWorkersModal,
+#mobileModal .youngModal {
     display: none;
 }
 

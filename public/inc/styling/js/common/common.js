@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <a href="/" class="active headerHome">Hjem</a>
                 <p class="inactive headerAbout" onclick="changeMobileModal('staff')">Om Soranahus</p>
                 <p class="inactive headerCaseWorkers" onclick="changeMobileModal('forcaseworkers')">For sagsbehandlere</p>
-                <a href="/for-den-unge" class="inactive headerYoung">For den unge</a>
+                <p class="inactive headerYoung" onclick="changeMobileModal('fortheyoung')">For den unge</p>
                 <a href="/galleri" class="inactive headerGallery">Galleri</a>
                 <a href="#contact" class="inactive">Kontakt</a>
             </nav>
@@ -45,6 +45,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 <a class="inactive" href="/for-sagsbehandlere#crossCoop">Tværfagligt Samarbejde</a>
                 <a class="inactive" href="/for-sagsbehandlere#childLaw">Barnets lov</a>
                 <a class="inactive" href="/for-sagsbehandlere#pricesandSpots">Ledige pladser</a>
+            </nav>
+            <nav class="youngModal mobileNavigationModal">
+                <a class="inactive" href="/for-den-unge#welcome">Velkommen</a>
+                <a class="inactive" href="/for-den-unge#daily">Dagligdagen</a>
+                <a class="inactive" href="/for-den-unge#freetime">Fritid</a>
+                <a class="inactive" href="/for-den-unge#housing">Egen Bolig</a>
             </nav>
             <section class="socials">
                 <div onclick="window.open('https://www.facebook.com/soranahus/', '_blank');"><i class="fa fa-facebook" aria-hidden="true"></i></div>
@@ -84,7 +90,15 @@ document.addEventListener("DOMContentLoaded", () => {
                          <a href="/for-sagsbehandlere#pricesandSpots">Ledige pladser</a>
                      </div>
                  </div>
-                <a href="/for-den-unge" class="inactive headerYoung">For den unge</a>
+                <div class="dropdown">
+                     <a href="/for-den-unge" class="inactive headerTheYoung">For den unge</a>
+                     <div class="dropdown-content">
+                        <a href="/for-den-unge#welcome">Velkommen</a>
+                        <a href="/for-den-unge#daily">Dagligdagen</a>
+                        <a href="/for-den-unge#freetime">Fritid</a>
+                        <a href="/for-den-unge#housing">Egen Bolig</a>
+                     </div>
+                 </div>
                 <a href="/galleri" class="inactive headerGallery">Galleri</a>
                 <a href="#contact" class="inactive">Kontakt</a>
             </nav>
