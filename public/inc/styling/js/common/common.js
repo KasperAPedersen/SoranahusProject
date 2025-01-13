@@ -1,7 +1,15 @@
-/*let c = prompt("Dev code", "");
+let c = prompt("Denne side er under udvikling", "");
 if (c == null || c != "1232") {
     window.location.href = "https://soranahus.dk/";
-}*/
+}
+
+let UpdateActiveNavTab = (newActiveTab) => {
+    let e = document.getElementsByClassName(newActiveTab);
+    for(let i = 0; i < e.length; i++) {
+        e[i].classList.add("active");
+        e[i].classList.remove("inactive");
+    }
+}
 
 document.addEventListener("DOMContentLoaded", () => {
     document.querySelector("header").innerHTML = `
