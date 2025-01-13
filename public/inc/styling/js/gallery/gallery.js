@@ -1,10 +1,6 @@
 // Add active header class
 document.addEventListener("DOMContentLoaded", () => {
-    let e = document.getElementsByClassName("headerGallery");
-    for(let i = 0; i < e.length; i++) {
-        e[i].classList.add("active");
-        e[i].classList.remove("inactive");
-    }
+    UpdateActiveNavTab('headerGallery');
 });
 
 // Toggle between images and videos in the gallery
