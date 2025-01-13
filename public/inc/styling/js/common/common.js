@@ -1,7 +1,7 @@
-let c = prompt("Denne side er under udvikling", "");
+/*let c = prompt("Denne side er under udvikling", "");
 if (c == null || c != "1232") {
     window.location.href = "https://soranahus.dk/";
-}
+}*/
 
 let UpdateActiveNavTab = (newActiveTab) => {
     let e = document.getElementsByClassName(newActiveTab);

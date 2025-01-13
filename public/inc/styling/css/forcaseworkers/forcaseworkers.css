@@ -37,3 +37,361 @@
     width: 80%;
     text-align: center;
 }
+
+/* -- */
+.welcome {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../../../images/tmp2.webp");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.target {
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    justify-items: center;
+    align-content: center;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.target article {
+    padding: 0;
+}
+
+.visitation {
+    background-color: var(--tertiaryColor);
+    color: var(--primaryColor);
+    justify-items: center;
+    align-content: center;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.methods {
+    min-height: 350px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../../../images/tmp2.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.familycoop {
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    justify-items: center;
+    align-content: center;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.relations {
+    background-color: var(--tertiaryColor);
+    color: var(--primaryColor);
+    justify-items: center;
+    align-content: center;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.health {
+    min-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../../../images/tmp2.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.approach {
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    justify-items: center;
+    align-content: center;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.staffDevelopment {
+    background-color: var(--tertiaryColor);
+    color: var(--primaryColor);
+    justify-items: center;
+    align-content: center;
+    padding: 50px 50px 75px 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.idDevelopment {
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    justify-items: center;
+    align-content: center;
+    padding: 50px;
+    margin-bottom: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crossCoop {
+    min-height: 400px;
+    padding-bottom: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../../../images/tmp2.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.childLaw {
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    justify-items: center;
+    align-content: center;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricesandSpots {
+    background-color: var(--tertiaryColor);
+    color: var(--primaryColor);
+    justify-items: center;
+    align-content: center;
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-position: inside;
+    margin: 25px 0;
+}
+li {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    padding: 25px 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding: 25px 0 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+.welcome article {
+    color: var(--secondaryColor);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add drop shadow */
+}
+
+.welcome h3 {
+    font-size: 3.75rem;
+    line-height: 0.7;
+    padding-left: 5px;
+}
+
+.welcome h2 {
+    font-size: 6rem;
+    line-height: 0;
+}
+
+.target h2 {
+    padding-top: 50px;
+}
+
+.relations h3 {
+    padding-top: 50px;
+}
+
+.childLaw article:nth-of-type(2) ul {
+    margin: 0;
+}
+
+.childLaw {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    align-items: start;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .welcome article {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .welcome article {
+        width: 60vw;
+    }
+
+    .welcome h2 {
+        font-size: 4rem;
+    }
+
+    .welcome h3 {
+        font-size: 1.8rem;
+    }
+
+    .welcome article {
+        font-size: 2.5rem;
+    }
+
+    .welcome h3 {
+        line-height: 0.3;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .welcome article {
+        width: 60vw;
+    }
+
+    .welcome h2 {
+        font-size: 3rem;
+    }
+
+    .welcome h3 {
+        font-size: 1.4rem;
+    }
+
+    .welcome article {
+        --heroLineHeight: 2rem;
+    }
+
+    .welcome h3,
+    .welcome h2 {
+        line-height: initial;
+        padding: 0;
+    }
+
+    .target article,
+    .visitation article,
+    .methods article,
+    .familycoop article,
+    .relations article,
+    .health article,
+    .approach article,
+    .staffDevelopment article,
+    .idDevelopment article,
+    .crossCoop article,
+    .childLaw article,
+    .pricesandSpots article {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .welcome article {
+        width: 80vw;
+    }
+
+    .welcome h2 {
+        font-size: 2.5rem;
+    }
+
+    .welcome h3 {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .target article,
+    .visitation article,
+    .methods article,
+    .familycoop article,
+    .relations article,
+    .health article,
+    .approach article,
+    .staffDevelopment article,
+    .idDevelopment article,
+    .crossCoop article,
+    .childLaw article,
+    .pricesandSpots article {
+        width: calc(100% - 30px);
+    }
+
+    .target,
+    .visitation,
+    .methods,
+    .familycoop,
+    .relations,
+    .health,
+    .approach,
+    .staffDevelopment,
+    .idDevelopment,
+    .crossCoop,
+    .childLaw,
+    .pricesandSpots{
+        padding: 25px 0;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .idDevelopment {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .welcome h2 {
+        font-size: 2rem;
+    }
+
+    .welcome h3 {
+        font-size: 0.9rem;
+    }
+}
