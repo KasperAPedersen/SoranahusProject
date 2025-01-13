@@ -27,30 +27,30 @@ document.addEventListener("DOMContentLoaded", () => {
                 <a href="#contact" class="inactive">Kontakt</a>
             </nav>
             <nav class="staffModal mobileNavigationModal">
-                <a class="inactive" href="/om-soranahus#about">Om Soranahus</a>
-                <a class="inactive" href="/om-soranahus#frameworks">Fysiske rammer</a>
-                <a class="inactive" href="/om-soranahus#staff">Personale</a>
-                <a class="inactive" href="/om-soranahus#jobs">Ledige stillinger</a>
+                <a class="inactive" href="/om-soranahus#about" onclick="toggleMobileNavigation()">Om Soranahus</a>
+                <a class="inactive" href="/om-soranahus#frameworks" onclick="toggleMobileNavigation()">Fysiske rammer</a>
+                <a class="inactive" href="/om-soranahus#staff" onclick="toggleMobileNavigation()">Personale</a>
+                <a class="inactive" href="/om-soranahus#jobs" onclick="toggleMobileNavigation()">Ledige stillinger</a>
             </nav>
             <nav class="forCaseWorkersModal mobileNavigationModal">
-                <a class="inactive" href="/for-sagsbehandlere#target">Målgruppe</a>
-                <a class="inactive" href="/for-sagsbehandlere#visitation">Visitation</a>
-                <a class="inactive" href="/for-sagsbehandlere#methods">Tilgang og metoder</a>
-                <a class="inactive" href="/for-sagsbehandlere#familycoop">Familiesamarbejde</a>
-                <a class="inactive" href="/for-sagsbehandlere#relations">Relationer</a>
-                <a class="inactive" href="/for-sagsbehandlere#health">Kost og sundhed</a>
-                <a class="inactive" href="/for-sagsbehandlere#approach">Faglig tilgang og metoder</a>
-                <a class="inactive" href="/for-sagsbehandlere#staffDevelopment">Personaleudvikling</a>
-                <a class="inactive" href="/for-sagsbehandlere#idDevelopment">Identitetsudvikling</a>
-                <a class="inactive" href="/for-sagsbehandlere#crossCoop">Tværfagligt Samarbejde</a>
-                <a class="inactive" href="/for-sagsbehandlere#childLaw">Barnets lov</a>
-                <a class="inactive" href="/for-sagsbehandlere#pricesandSpots">Ledige pladser</a>
+                <a class="inactive" href="/for-sagsbehandlere#target" onclick="toggleMobileNavigation()">Målgruppe</a>
+                <a class="inactive" href="/for-sagsbehandlere#visitation" onclick="toggleMobileNavigation()">Visitation</a>
+                <a class="inactive" href="/for-sagsbehandlere#methods" onclick="toggleMobileNavigation()">Tilgang og metoder</a>
+                <a class="inactive" href="/for-sagsbehandlere#familycoop" onclick="toggleMobileNavigation()">Familiesamarbejde</a>
+                <a class="inactive" href="/for-sagsbehandlere#relations" onclick="toggleMobileNavigation()">Relationer</a>
+                <a class="inactive" href="/for-sagsbehandlere#health" onclick="toggleMobileNavigation()">Kost og sundhed</a>
+                <a class="inactive" href="/for-sagsbehandlere#approach" onclick="toggleMobileNavigation()">Faglig tilgang og metoder</a>
+                <a class="inactive" href="/for-sagsbehandlere#staffDevelopment" onclick="toggleMobileNavigation()">Personaleudvikling</a>
+                <a class="inactive" href="/for-sagsbehandlere#idDevelopment" onclick="toggleMobileNavigation()">Identitetsudvikling</a>
+                <a class="inactive" href="/for-sagsbehandlere#crossCoop" onclick="toggleMobileNavigation()">Tværfagligt Samarbejde</a>
+                <a class="inactive" href="/for-sagsbehandlere#childLaw" onclick="toggleMobileNavigation()">Barnets lov</a>
+                <a class="inactive" href="/for-sagsbehandlere#pricesandSpots" onclick="toggleMobileNavigation()">Ledige pladser</a>
             </nav>
             <nav class="youngModal mobileNavigationModal">
-                <a class="inactive" href="/for-den-unge#welcome">Velkommen</a>
-                <a class="inactive" href="/for-den-unge#daily">Dagligdagen</a>
-                <a class="inactive" href="/for-den-unge#freetime">Fritid</a>
-                <a class="inactive" href="/for-den-unge#housing">Egen Bolig</a>
+                <a class="inactive" href="/for-den-unge#welcome" onclick="toggleMobileNavigation()">Velkommen</a>
+                <a class="inactive" href="/for-den-unge#daily" onclick="toggleMobileNavigation()">Dagligdagen</a>
+                <a class="inactive" href="/for-den-unge#freetime" onclick="toggleMobileNavigation()">Fritid</a>
+                <a class="inactive" href="/for-den-unge#housing" onclick="toggleMobileNavigation()">Egen Bolig</a>
             </nav>
             <section class="socials">
                 <div onclick="window.open('https://www.facebook.com/soranahus/', '_blank');"><i class="fa fa-facebook" aria-hidden="true"></i></div>
