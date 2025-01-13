@@ -305,10 +305,6 @@ p {
         font-size: 1.4rem;
     }
 
-    .welcome article {
-        --heroLineHeight: 2rem;
-    }
-
     .welcome h3,
     .welcome h2 {
         line-height: initial;
@@ -346,7 +342,6 @@ p {
 }
 
 @media screen and (max-width: 425px) {
-
     .target article,
     .visitation article,
     .methods article,
